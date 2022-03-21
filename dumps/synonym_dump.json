@@ -1,0 +1,4700 @@
+[
+  {
+    "type": "synonym",
+    "synonyms": [
+      "classic milds",
+      "classicmilds"
+    ],
+    "objectID": "syn-1608642808339-24"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "gold flake",
+      "goldflake"
+    ],
+    "objectID": "syn-1608640931074-20"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "ice burst",
+      "iceburst"
+    ],
+    "objectID": "syn-1608640834300-16"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "malboro",
+      "marlboro"
+    ],
+    "objectID": "syn-1608640775109-12"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "cigarette",
+      "cigarettes",
+      "cigrette",
+      "cigerete",
+      "ciggerette"
+    ],
+    "objectID": "syn-1608640612697-2"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "water 5l",
+    "synonyms": [
+      "water"
+    ],
+    "objectID": "syn-1608476461754-40"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "water 5",
+    "synonyms": [
+      "water"
+    ],
+    "objectID": "syn-1608476276641-36"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "milk pouch",
+      "pouch milk",
+      "pouchmilk",
+      "milkpouch"
+    ],
+    "objectID": "syn-1608451898194-32"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "milk pouch",
+    "synonyms": [
+      "milk"
+    ],
+    "objectID": "syn-1608451330046-28"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "amulmilk",
+    "synonyms": [
+      "amul milk"
+    ],
+    "objectID": "syn-1608450588801-21"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "christmas",
+    "synonyms": [
+      "plum cake",
+      "gingerbread",
+      "X-Mas"
+    ],
+    "objectID": "syn-1608396167602-8"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "plum cake",
+      "plumcake"
+    ],
+    "objectID": "syn-1608395927932-4"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "cup noodles",
+      "cupnoodles"
+    ],
+    "objectID": "syn-1608308987223-50"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "green chilli",
+      "greenchilli"
+    ],
+    "objectID": "syn-1608308807121-46"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "coco",
+    "synonyms": [
+      "coconut"
+    ],
+    "objectID": "syn-1608294285888-373"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "corn flake",
+      "cornflakes",
+      "corn flakes"
+    ],
+    "objectID": "syn-1608294096304-369"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "dairy",
+    "synonyms": [
+      "paneer"
+    ],
+    "objectID": "syn-1608280623602-6"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "dairy",
+    "synonyms": [
+      "milk"
+    ],
+    "objectID": "syn-1608280575832-2"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "cake rusk",
+      "cakerusk",
+      "rusk",
+      "milkrusk",
+      "milk rusk"
+    ],
+    "objectID": "syn-1607523476482-29"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "red lays",
+    "synonyms": [
+      "tomato tango chips"
+    ],
+    "objectID": "syn-1607521903093-25"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "dairymilk",
+      "dairy milk"
+    ],
+    "objectID": "syn-1607520685080-21"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "green lays",
+    "synonyms": [
+      "cream & onion chips"
+    ],
+    "objectID": "syn-1607520475620-17"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "blue lays",
+    "synonyms": [
+      "magic masala chips"
+    ],
+    "objectID": "syn-1607520423418-13"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "broom",
+      "jhadu",
+      "jharu"
+    ],
+    "objectID": "syn-1607518812992-9"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "buckwheat",
+      "buck wheat",
+      "kuttu"
+    ],
+    "objectID": "syn-1607056491314-238"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "india gate",
+      "indiagate"
+    ],
+    "objectID": "syn-1607056406709-234"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "roasted peanuts",
+    "synonyms": [
+      "tong garden salted peanuts"
+    ],
+    "objectID": "syn-1607056175872-230"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "mouth wash",
+      "mouthwash"
+    ],
+    "objectID": "syn-1607055894917-226"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "dish wash",
+      "dishwash"
+    ],
+    "objectID": "syn-1607055599183-216"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "cornflour",
+      "corn flour",
+      "cornpowder",
+      "corn powder"
+    ],
+    "objectID": "syn-1607055551584-212"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "chowmein",
+      "noodles",
+      "noodle"
+    ],
+    "objectID": "syn-1607055459158-208"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "chocolate sauce",
+      "chocolate syrup",
+      "chocolate spread",
+      "chocolatesauce"
+    ],
+    "objectID": "syn-1607055341978-201"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "kala namak",
+      "kalanamak",
+      "black salt",
+      "blacksalt"
+    ],
+    "objectID": "syn-1607054785761-191"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "goodnight",
+      "good night",
+      "good knight"
+    ],
+    "objectID": "syn-1607054701798-187"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "cheese balls",
+      "cheesy nuggets"
+    ],
+    "objectID": "syn-1607054518458-183"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "chai",
+      "chai patti",
+      "tea"
+    ],
+    "objectID": "syn-1607054376990-179"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "biryani rice",
+    "synonyms": [
+      "basmati rice"
+    ],
+    "objectID": "syn-1607054184561-175"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "aata 5kg",
+    "synonyms": [
+      "atta"
+    ],
+    "objectID": "syn-1607054057189-171"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "raw peanut",
+      "groundnut"
+    ],
+    "objectID": "syn-1607053931163-167"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "lube",
+    "synonyms": [
+      "massage gel",
+      "tingling gel"
+    ],
+    "objectID": "syn-1607053826115-163"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "lubricant",
+    "synonyms": [
+      "massage gel",
+      "tingling gel"
+    ],
+    "objectID": "syn-1607053582374-147"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "broken wheat",
+      "daliya"
+    ],
+    "objectID": "syn-1607053181481-140"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "baby corn",
+      "babycorn"
+    ],
+    "objectID": "syn-1607010248757-136"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "cocoa powder",
+      "hot chocolate",
+      "drinking chocolate",
+      "cocoapowder"
+    ],
+    "objectID": "syn-1607008421847-110"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "mil",
+    "synonyms": [
+      "milk"
+    ],
+    "objectID": "syn-1607007989160-100"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Icr",
+    "synonyms": [
+      "Ice"
+    ],
+    "objectID": "syn-1607003330377-96"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Small onion",
+      "sambar onion"
+    ],
+    "objectID": "syn-1607002995471-92"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "khova",
+      "khowa"
+    ],
+    "objectID": "syn-1607002897847-88"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "7up",
+      "7 up"
+    ],
+    "objectID": "syn-1607002795975-84"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dalia",
+      "daliya"
+    ],
+    "objectID": "syn-1607002640786-74"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "face wash",
+      "facewash"
+    ],
+    "objectID": "syn-1607002554167-70"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Paperboat",
+    "synonyms": [
+      "Paper boat"
+    ],
+    "objectID": "syn-1607002486602-66"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "soy milk",
+      "soya milk"
+    ],
+    "objectID": "syn-1607002418282-62"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Ashirwad",
+    "synonyms": [
+      "Aashirvaad"
+    ],
+    "objectID": "syn-1607002335875-58"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "tooth brush",
+      "toothbrush"
+    ],
+    "objectID": "syn-1607002207103-54"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "pop corn",
+      "popcorn"
+    ],
+    "objectID": "syn-1607001961262-50"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "foxnut",
+      "fox nut",
+      "makhana",
+      "foxnuts"
+    ],
+    "objectID": "syn-1607001876020-43"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "mik",
+    "synonyms": [
+      "milk"
+    ],
+    "objectID": "syn-1607001785792-39"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "milkmaid",
+    "synonyms": [
+      "milk maid"
+    ],
+    "objectID": "syn-1607001673562-35"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "tapioca",
+      "sabudana"
+    ],
+    "objectID": "syn-1607001536154-31"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "oxy",
+    "synonyms": [
+      "oxi"
+    ],
+    "objectID": "syn-1607001416528-27"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "brocoll",
+    "synonyms": [
+      "broccoli"
+    ],
+    "objectID": "syn-1607000782492-2"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "sugarfr",
+    "synonyms": [
+      "sugar free"
+    ],
+    "objectID": "syn-1607000168625-273"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "salad",
+    "synonyms": [
+      "fruit chat mix",
+      "tomato local",
+      "tomato hybrid",
+      "onion pyaaz",
+      "beetroot chukandar"
+    ],
+    "objectID": "syn-1606999883148-266"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "parota",
+      "paratha"
+    ],
+    "objectID": "syn-1606999164567-262"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "brown sugar",
+      "demerara sugar"
+    ],
+    "objectID": "syn-1606828373751-13"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "soya sauce",
+    "synonyms": [
+      "soy sauce"
+    ],
+    "objectID": "syn-1606828082219-9"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "phenyl",
+    "synonyms": [
+      "floor cleaner"
+    ],
+    "objectID": "syn-1606825060880-5"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "roti",
+      "chapati",
+      "phulka"
+    ],
+    "objectID": "syn-1603194005677-417"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "redbull",
+    "synonyms": [
+      "red bull"
+    ],
+    "objectID": "syn-1602765849765-7"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "milk powder",
+    "synonyms": [
+      "dairy whitener"
+    ],
+    "objectID": "syn-1599029851939-4"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "tong",
+    "synonyms": [
+      "tong garden"
+    ],
+    "objectID": "syn-1596699428954-8"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Collar & Leash",
+    "synonyms": [
+      "Collar ",
+      "Leash"
+    ],
+    "objectID": "syn-1596618338786-3"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Munch",
+    "synonyms": [
+      "KitKat",
+      " Perk"
+    ],
+    "objectID": "syn-1596114082319-1028"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Limca",
+    "synonyms": [
+      "7 UP",
+      "Sprite"
+    ],
+    "objectID": "syn-1596113969353-1020"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "dustbins",
+    "synonyms": [
+      "garbage bags"
+    ],
+    "objectID": "syn-1596111913879-281"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "ice cube",
+      "icecube"
+    ],
+    "objectID": "syn-1582633712903-9"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "peanut",
+      "peanuts",
+      "groundnut",
+      "ground nuts",
+      "ground nut",
+      "groundnuts",
+      "moongfali",
+      "moong fali"
+    ],
+    "objectID": "syn-1581945424287-8"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "butter milk",
+    "synonyms": [
+      "buttermilk"
+    ],
+    "objectID": "syn-1580912289980-8"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "surf",
+    "synonyms": [
+      "surf excel"
+    ],
+    "objectID": "syn-1575296364363-59"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "nariyal pani",
+    "synonyms": [
+      "coconut water"
+    ],
+    "objectID": "syn-1573796474082-86"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "hukka",
+    "synonyms": [
+      "hookah"
+    ],
+    "objectID": "1572147379872"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Gold flake",
+    "synonyms": [
+      "paan shops",
+      "24 seven"
+    ],
+    "objectID": "1572147261453"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "ata",
+    "synonyms": [
+      "Atta"
+    ],
+    "objectID": "1572146925419"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "ocb",
+    "synonyms": [
+      "Rolling paper"
+    ],
+    "objectID": "1571911010774"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "maaja",
+    "synonyms": [
+      "maaza"
+    ],
+    "objectID": "1570888017799"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "casatta",
+    "synonyms": [
+      "ice cream"
+    ],
+    "objectID": "1570887968060"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "i-pill",
+    "synonyms": [
+      "i pill"
+    ],
+    "objectID": "1570887539140"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Maggiee",
+    "synonyms": [
+      "maggi"
+    ],
+    "objectID": "1570509363573"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Toilet Tissue",
+      "toilet roll",
+      "toilet paper"
+    ],
+    "objectID": "1570508386299"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "garbage bags",
+      "dustbin bags",
+      "waste bags"
+    ],
+    "objectID": "1570012795617"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "earbuds",
+      "ear bud",
+      "ear buds"
+    ],
+    "objectID": "1570006705383"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "egg",
+    "synonyms": [
+      "eggs"
+    ],
+    "objectID": "1569122076984"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Aata",
+    "synonyms": [
+      "Atta"
+    ],
+    "objectID": "1569121868002"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "wet wipes",
+    "synonyms": [
+      "wipes"
+    ],
+    "objectID": "1568955597335"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Anda",
+    "synonyms": [
+      "eggs"
+    ],
+    "objectID": "1566409953770"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "sock",
+    "synonyms": [
+      "socks"
+    ],
+    "objectID": "1565688159657"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "kajal",
+    "synonyms": [
+      "eye_makeup",
+      "eye makeup"
+    ],
+    "objectID": "1565688056174"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "dhoodh",
+    "synonyms": [
+      "milk"
+    ],
+    "objectID": "1565538180291"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "doodh",
+    "synonyms": [
+      "milk"
+    ],
+    "objectID": "1565538164183"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "fruits",
+    "synonyms": [
+      "fresh fruits"
+    ],
+    "objectID": "1565537320780"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "diarymilk",
+    "synonyms": [
+      "dairy milk"
+    ],
+    "objectID": "1565536360311"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "diary milk",
+    "synonyms": [
+      "dairy milk"
+    ],
+    "objectID": "1565536334101"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "freshvegetables",
+      "fresh veggies",
+      "vegetables",
+      "fresh vegetables",
+      "veggies"
+    ],
+    "objectID": "1565532380036"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "coke",
+    "synonyms": [
+      "coca cola"
+    ],
+    "objectID": "1565462073564"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Semolina",
+      "Rawa",
+      "sooji",
+      "rava"
+    ],
+    "objectID": "1565277552220_99"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sago",
+      "Sabudana"
+    ],
+    "objectID": "1565277552220_98"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Vegetable",
+      "Sabzi",
+      "Sabji"
+    ],
+    "objectID": "1565277552220_96"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Drumsticks",
+      "Sanjana",
+      "sejan ki phali"
+    ],
+    "objectID": "1565277552220_94"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Mustard",
+      "Sarson"
+    ],
+    "objectID": "1565277552220_93"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Fennel",
+      "Saunf"
+    ],
+    "objectID": "1565277552220_92"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Skewer",
+      "Seekh"
+    ],
+    "objectID": "1565277552220_91"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Vermicelli",
+      "Semiya",
+      "seviyan",
+      "sewai"
+    ],
+    "objectID": "1565277552220_90"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Haree Mirch",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_9"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Seb",
+    "synonyms": [
+      "Apple"
+    ],
+    "objectID": "1565277552220_89"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gawar Phali",
+      "Beans"
+    ],
+    "objectID": "1565277552220_87"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sweet potatoes",
+      "Shakarkand"
+    ],
+    "objectID": "1565277552220_86"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "chini",
+    "synonyms": [
+      "sugar"
+    ],
+    "objectID": "1565277552220_85"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Turnip",
+      "Shalgam"
+    ],
+    "objectID": "1565277552220_84"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Custard apple",
+      "Sharifa",
+      "sitafal"
+    ],
+    "objectID": "1565277552220_83"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Asparagus",
+      "Shatwar",
+      "soot mooli",
+      "halyan"
+    ],
+    "objectID": "1565277552220_82"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "shorba",
+    "synonyms": [
+      "soup"
+    ],
+    "objectID": "1565277552220_81"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Simla mirch",
+      "capsicum"
+    ],
+    "objectID": "1565277552220_80"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Turai",
+      "Sponge Gourd"
+    ],
+    "objectID": "1565277552220_8"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "sirka",
+    "synonyms": [
+      "Vinegar"
+    ],
+    "objectID": "1565277552220_78"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Custard apple",
+      "Sitafal",
+      "sharifa"
+    ],
+    "objectID": "1565277552220_77"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajamod",
+      "Parsley"
+    ],
+    "objectID": "1565277552220_76"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Caraway",
+      "Siya jeera"
+    ],
+    "objectID": "1565277552220_75"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dried ginger",
+      "Sonth"
+    ],
+    "objectID": "1565277552220_74"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Semolina",
+      "Sooji",
+      "rawa"
+    ],
+    "objectID": "1565277552220_73"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Asparagus",
+      "Soot mooli",
+      "shatwar",
+      "halyan"
+    ],
+    "objectID": "1565277552220_72"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Sem",
+    "synonyms": [
+      "Beans"
+    ],
+    "objectID": "1565277552220_7"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Water melon",
+      "Tarbooz",
+      "kharbuja"
+    ],
+    "objectID": "1565277552220_68"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Griddle",
+      "Tawa"
+    ],
+    "objectID": "1565277552220_67"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bay leaf",
+      "Tej Patta"
+    ],
+    "objectID": "1565277552220_66"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shatavari",
+      "Asparagus"
+    ],
+    "objectID": "1565277552220_65"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Oil",
+      "Tel"
+    ],
+    "objectID": "1565277552220_64"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sesame",
+      "Til"
+    ],
+    "objectID": "1565277552220_63"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Cold milk drink",
+      "Thandai"
+    ],
+    "objectID": "1565277552220_62"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pigeon-peas",
+      "Toor",
+      "tuvar",
+      "arhar"
+    ],
+    "objectID": "1565277552220_61"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "black gram",
+      "Urad"
+    ],
+    "objectID": "1565277552220_60"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aniseed",
+      "Vilayati saunf",
+      "saunf"
+    ],
+    "objectID": "1565277552220_59"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Saffron",
+      "Zafran",
+      "kesar",
+      "kesari"
+    ],
+    "objectID": "1565277552220_58"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nutmeg",
+      "Zaiphal",
+      "jaiphal"
+    ],
+    "objectID": "1565277552220_57"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Apricots",
+      "Zardalu",
+      "khubani"
+    ],
+    "objectID": "1565277552220_56"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kasuri Methi",
+      "Fenugreek"
+    ],
+    "objectID": "1565277552220_55"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chichinda",
+      "Snake Gourd"
+    ],
+    "objectID": "1565277552220_54"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Rataalu",
+      "Yam"
+    ],
+    "objectID": "1565277552220_53"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nimbu Pattee",
+      "Lemongrass"
+    ],
+    "objectID": "1565277552220_52"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Safed Pyaaz",
+      "Onion"
+    ],
+    "objectID": "1565277552220_51"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Haree Matar",
+      "Green Peas"
+    ],
+    "objectID": "1565277552220_50"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nariyal",
+      "Coconut"
+    ],
+    "objectID": "1565277552220_49"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shimla Mirch",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_488"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pyaaz",
+      "Onion"
+    ],
+    "objectID": "1565277552220_487"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gajar",
+      "Carrot"
+    ],
+    "objectID": "1565277552220_486"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Phool Gobhi",
+      "Cauliflower"
+    ],
+    "objectID": "1565277552220_485"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Palak",
+      "Spinach"
+    ],
+    "objectID": "1565277552220_484"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kheera",
+      "Cucumber"
+    ],
+    "objectID": "1565277552220_483"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Patta Gobhi",
+      "Cabbage"
+    ],
+    "objectID": "1565277552220_481"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chukandar",
+      "Beetroot"
+    ],
+    "objectID": "1565277552220_480"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Patta Gobhi",
+      "Red Cabbage"
+    ],
+    "objectID": "1565277552220_48"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Methi",
+      "Fenugreek"
+    ],
+    "objectID": "1565277552220_479"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Parwal",
+      "Pointed Gourd"
+    ],
+    "objectID": "1565277552220_478"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Laukee",
+      "Bottle Gourd"
+    ],
+    "objectID": "1565277552220_477"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tindora",
+      "Coccinia"
+    ],
+    "objectID": "1565277552220_476"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Amla",
+      "Gooseberry"
+    ],
+    "objectID": "1565277552220_475"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Salaad",
+      "Lettuce"
+    ],
+    "objectID": "1565277552220_474"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaddoo",
+      "Pumpkin"
+    ],
+    "objectID": "1565277552220_473"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajmood",
+      "Parsley"
+    ],
+    "objectID": "1565277552220_472"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Turai",
+      "Ridge Gourd"
+    ],
+    "objectID": "1565277552220_471"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Adrak",
+      "Ginger"
+    ],
+    "objectID": "1565277552220_470"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kadi Patta",
+      "Curry Leaves"
+    ],
+    "objectID": "1565277552220_47"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dhania Patta",
+      "Coriander leaves"
+    ],
+    "objectID": "1565277552220_469"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "mirchi",
+    "synonyms": [
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_468"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pudina",
+      "Mint Leaves"
+    ],
+    "objectID": "1565277552220_467"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Karela",
+      "Bitter Gourd"
+    ],
+    "objectID": "1565277552220_466"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sahjan",
+      "Drumstick"
+    ],
+    "objectID": "1565277552220_465"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nimbu",
+      "Lemon"
+    ],
+    "objectID": "1565277552220_464"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shaljam",
+      "Turnip"
+    ],
+    "objectID": "1565277552220_463"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kathal",
+      "Jackfruit"
+    ],
+    "objectID": "1565277552220_462"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Makkai, Bhutta",
+      "Corn"
+    ],
+    "objectID": "1565277552220_461"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lahsun",
+      "Garlic"
+    ],
+    "objectID": "1565277552220_460"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tara Mira",
+      "Rocket Leaves"
+    ],
+    "objectID": "1565277552220_46"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Turai",
+      "Zucchini"
+    ],
+    "objectID": "1565277552220_459"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bathua",
+      "Pigweed"
+    ],
+    "objectID": "1565277552220_458"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Mooli",
+      "Radish"
+    ],
+    "objectID": "1565277552220_457"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Safed Phali",
+      "Beans"
+    ],
+    "objectID": "1565277552220_456"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Matar",
+      "Green Peas"
+    ],
+    "objectID": "1565277552220_455"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Baingan",
+      "Brinjal"
+    ],
+    "objectID": "1565277552220_454"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shakarkand",
+      "Sweet Potato"
+    ],
+    "objectID": "1565277552220_453"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aaloo",
+      "Potato"
+    ],
+    "objectID": "1565277552220_452"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Chana",
+      "Green Chickpea"
+    ],
+    "objectID": "1565277552220_451"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajavaayan ka Phool",
+      "Celery"
+    ],
+    "objectID": "1565277552220_450"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tulsi",
+      "Basil"
+    ],
+    "objectID": "1565277552220_45"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kacha Aam",
+      "Raw Mango"
+    ],
+    "objectID": "1565277552220_449"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chhota Aloo",
+      "Baby Potato"
+    ],
+    "objectID": "1565277552220_448"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ganth Gobi",
+      "Knol Khol"
+    ],
+    "objectID": "1565277552220_447"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Choulai",
+      "Amaranthus"
+    ],
+    "objectID": "1565277552220_446"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chhota Aloo",
+      "Amaranthus"
+    ],
+    "objectID": "1565277552220_445"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "kele ka phool",
+    "synonyms": [
+      "Banana Flower"
+    ],
+    "objectID": "1565277552220_444"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shimla Mirch",
+      "Capsicum"
+    ],
+    "objectID": "1565277552220_443"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lobia Sem",
+      "Beans"
+    ],
+    "objectID": "1565277552220_442"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Himashail",
+      "Iceberg Lettuce"
+    ],
+    "objectID": "1565277552220_441"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chow Chow",
+      "Chayote"
+    ],
+    "objectID": "1565277552220_440"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gawar Phali",
+      "Cluster Beans"
+    ],
+    "objectID": "1565277552220_439"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gorikai",
+      "Cluster Beans"
+    ],
+    "objectID": "1565277552220_438"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shimlamirch",
+      "Capsicum"
+    ],
+    "objectID": "1565277552220_437"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lal Shimlamirch",
+      "Capsicum"
+    ],
+    "objectID": "1565277552220_436"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pakora Mirch",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_435"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Pyazz",
+      "Spring Onion"
+    ],
+    "objectID": "1565277552220_434"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Peela Shimla Mirch",
+      "Capsicum"
+    ],
+    "objectID": "1565277552220_433"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dhantu",
+      "Amaranthus"
+    ],
+    "objectID": "1565277552220_432"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hari Mirchi",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_431"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Long Pakora Mirchi",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_430"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajamod Jadee Bootee",
+      "Celery"
+    ],
+    "objectID": "1565277552220_43"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gavar",
+      "Cluster Beans"
+    ],
+    "objectID": "1565277552220_429"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Dhania",
+      "Coriander leaves"
+    ],
+    "objectID": "1565277552220_428"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Menthya",
+      "Fenugreek"
+    ],
+    "objectID": "1565277552220_427"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chaulai",
+      "Amaranthus"
+    ],
+    "objectID": "1565277552220_426"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aaloo",
+      "Baby Potato"
+    ],
+    "objectID": "1565277552220_425"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lahasun",
+      "Garlic"
+    ],
+    "objectID": "1565277552220_424"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Kaccha Kela",
+    "synonyms": [
+      "Raw Banana"
+    ],
+    "objectID": "1565277552220_423"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hari Matar",
+      "Green Peas"
+    ],
+    "objectID": "1565277552220_422"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kacchi Haldi",
+      "Raw Turmeric"
+    ],
+    "objectID": "1565277552220_421"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kamal Kakdi",
+      "Lotus Stem"
+    ],
+    "objectID": "1565277552220_420"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aalukee",
+      "Colocasia"
+    ],
+    "objectID": "1565277552220_42"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nimboo",
+      "Lemon"
+    ],
+    "objectID": "1565277552220_419"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nimboo Patha",
+      "Lemon Leaves"
+    ],
+    "objectID": "1565277552220_418"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nimbu Patha",
+      "Lemon Leaves"
+    ],
+    "objectID": "1565277552220_417"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Salad Patha",
+      "Lettuce"
+    ],
+    "objectID": "1565277552220_416"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajamod Jadee Bootee",
+      "Parsley"
+    ],
+    "objectID": "1565277552220_415"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Laukee",
+      "Pointed Gourd"
+    ],
+    "objectID": "1565277552220_414"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaddo",
+      "Pumpkin"
+    ],
+    "objectID": "1565277552220_413"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lal Patta Gobhi",
+      "Red Cabbage"
+    ],
+    "objectID": "1565277552220_412"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lal Salad Patta",
+      "Salad Leaves"
+    ],
+    "objectID": "1565277552220_411"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Pyaz",
+      "Spring Onion"
+    ],
+    "objectID": "1565277552220_410"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Salaad",
+      "Iceberg Lettuce"
+    ],
+    "objectID": "1565277552220_41"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Peela Shimlamirch",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_409"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Phaliyan",
+      "Beans"
+    ],
+    "objectID": "1565277552220_408"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chakundar",
+      "Beetroot"
+    ],
+    "objectID": "1565277552220_407"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shimla Mirchi",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_406"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Salad Patta",
+      "Lettuce"
+    ],
+    "objectID": "1565277552220_405"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaccha Haldi",
+      "Raw Turmeric"
+    ],
+    "objectID": "1565277552220_404"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "kulfa Saag",
+      "Rocket Leaves"
+    ],
+    "objectID": "1565277552220_403"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "mirch",
+    "synonyms": [
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_402"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Petha Hara",
+      "Ash Gourd"
+    ],
+    "objectID": "1565277552220_401"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Parawl",
+      "Pointed Gourd"
+    ],
+    "objectID": "1565277552220_400"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ber",
+      "Plum"
+    ],
+    "objectID": "1565277552220_40"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aloo",
+      "Potato"
+    ],
+    "objectID": "1565277552220_399"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kadoo",
+      "Pumpkin"
+    ],
+    "objectID": "1565277552220_398"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lal Shimla Mirch",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_397"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Safed Petha",
+      "Ash Gourd"
+    ],
+    "objectID": "1565277552220_396"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Soya Saag",
+      "Dill Leaves"
+    ],
+    "objectID": "1565277552220_395"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pakora Mirch",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_394"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Adrak",
+      "Garlic"
+    ],
+    "objectID": "1565277552220_393"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Shimla Mirch",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_392"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Papeeta",
+      "Raw Papaya"
+    ],
+    "objectID": "1565277552220_391"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nimbu Ghas",
+      "Lemongrass"
+    ],
+    "objectID": "1565277552220_390"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tulsi",
+      "Thai Basil"
+    ],
+    "objectID": "1565277552220_39"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pyazz",
+      "Onion"
+    ],
+    "objectID": "1565277552220_389"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Petha",
+      "Ash Gourd"
+    ],
+    "objectID": "1565277552220_388"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Peela Shimla Mirch",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_387"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hari Shimla Mirch",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_386"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Matar",
+      "Green Peas"
+    ],
+    "objectID": "1565277552220_385"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hari Sem",
+      "Beans"
+    ],
+    "objectID": "1565277552220_384"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Phool Gophi",
+      "Cauliflower"
+    ],
+    "objectID": "1565277552220_383"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tinda",
+      "Round Gourd"
+    ],
+    "objectID": "1565277552220_382"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pudina Patta",
+      "Mint Leaves"
+    ],
+    "objectID": "1565277552220_381"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kundru",
+      "Ivy Gourd"
+    ],
+    "objectID": "1565277552220_380"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Phool Gobhi",
+      "Broccoli"
+    ],
+    "objectID": "1565277552220_38"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chukander",
+      "Beetroot"
+    ],
+    "objectID": "1565277552220_379"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Adarak",
+      "Ginger"
+    ],
+    "objectID": "1565277552220_378"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Haree Sem",
+      "Beans"
+    ],
+    "objectID": "1565277552220_377"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kadu",
+      "Pumpkin"
+    ],
+    "objectID": "1565277552220_376"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chappal Tinda",
+      "Round Gourd"
+    ],
+    "objectID": "1565277552220_375"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaddu",
+      "Pumpkin"
+    ],
+    "objectID": "1565277552220_374"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Patta Gobhi",
+      "Cabbage"
+    ],
+    "objectID": "1565277552220_373"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hari Mirch",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_372"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Phool Gobi",
+      "Cauliflower"
+    ],
+    "objectID": "1565277552220_371"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lauki",
+      "Bottle Gourd"
+    ],
+    "objectID": "1565277552220_370"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Dhaniya",
+      "Coriander leaves"
+    ],
+    "objectID": "1565277552220_37"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Patta Gobi",
+      "Cabbage"
+    ],
+    "objectID": "1565277552220_369"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chapal Tinda",
+      "Round Gourd"
+    ],
+    "objectID": "1565277552220_368"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lal Shimlamirch",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_367"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kundru",
+      "Coccinia"
+    ],
+    "objectID": "1565277552220_366"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Salaad Patta",
+      "Lettuce"
+    ],
+    "objectID": "1565277552220_365"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Laal Patta Gobhi",
+      "Cabbage"
+    ],
+    "objectID": "1565277552220_364"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Jimikand",
+      "Yam"
+    ],
+    "objectID": "1565277552220_363"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aam",
+      "Raw Mango"
+    ],
+    "objectID": "1565277552220_361"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Torai",
+      "Ridge Gourd"
+    ],
+    "objectID": "1565277552220_360"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajavaayan ke phool sabjee",
+      "Celery"
+    ],
+    "objectID": "1565277552220_36"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chota Aloo",
+      "Baby Potato"
+    ],
+    "objectID": "1565277552220_359"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hari Shimlamirch",
+      "Capsicum / Bell Pepper"
+    ],
+    "objectID": "1565277552220_358"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lobia",
+      "Beans"
+    ],
+    "objectID": "1565277552220_357"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Yeley Kosu",
+      "Cabbage"
+    ],
+    "objectID": "1565277552220_356"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chavali Kayi",
+      "Beans"
+    ],
+    "objectID": "1565277552220_355"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Thonde kayi",
+      "Coccinia"
+    ],
+    "objectID": "1565277552220_354"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Thengina Kayi",
+      "Coconut"
+    ],
+    "objectID": "1565277552220_353"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kesuvina Geddey",
+      "Colocasia"
+    ],
+    "objectID": "1565277552220_352"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kottambari Soppu",
+      "Coriander leaves"
+    ],
+    "objectID": "1565277552220_351"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sauthey Kayi",
+      "Cucumber"
+    ],
+    "objectID": "1565277552220_350"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nenua",
+      "Sponge Gourd"
+    ],
+    "objectID": "1565277552220_35"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Alugadde",
+      "Potato"
+    ],
+    "objectID": "1565277552220_349"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Huruli Kayi",
+      "Beans"
+    ],
+    "objectID": "1565277552220_348"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bendekayi",
+      "Lady's Finger"
+    ],
+    "objectID": "1565277552220_347"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Haagala Kayi",
+      "Bitter Gourd"
+    ],
+    "objectID": "1565277552220_346"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sorekayi",
+      "Bottle Gourd"
+    ],
+    "objectID": "1565277552220_345"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Badanekayi",
+      "Brinjal"
+    ],
+    "objectID": "1565277552220_344"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dappa Menasinakayi",
+      "Capsicum"
+    ],
+    "objectID": "1565277552220_343"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bajji Menasinakayi",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_342"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Menasinakayi",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_341"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pakora Mirchi",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_340"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sarson ke Patte",
+      "Mustard Leaves"
+    ],
+    "objectID": "1565277552220_34"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Desi Kheera",
+      "Cucumber"
+    ],
+    "objectID": "1565277552220_339"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Desi Lahsun",
+      "Garlic"
+    ],
+    "objectID": "1565277552220_338"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gawar Phali",
+      "French Beans"
+    ],
+    "objectID": "1565277552220_337"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kakora",
+      "Spine Gourd"
+    ],
+    "objectID": "1565277552220_336"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Poi Sag",
+      "Basella Alba"
+    ],
+    "objectID": "1565277552220_335"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Green Petha",
+      "Ash Gourd"
+    ],
+    "objectID": "1565277552220_334"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kacha Papaya",
+      "Raw Papaya"
+    ],
+    "objectID": "1565277552220_333"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Arvi",
+      "Eddoe"
+    ],
+    "objectID": "1565277552220_332"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Parval",
+      "Pointed Gourd"
+    ],
+    "objectID": "1565277552220_331"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gol Laukee",
+      "Bottle Gourd"
+    ],
+    "objectID": "1565277552220_330"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kachi Haldi",
+      "Raw Turmeric"
+    ],
+    "objectID": "1565277552220_33"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Peela Shimlamirch",
+      "Capsicum"
+    ],
+    "objectID": "1565277552220_329"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaccha Aam",
+      "Raw Mango"
+    ],
+    "objectID": "1565277552220_328"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gol Lauki",
+      "Bottle Gourd"
+    ],
+    "objectID": "1565277552220_327"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaccha Papita",
+      "Raw Papaya"
+    ],
+    "objectID": "1565277552220_326"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kulfa Saag",
+      "Pigweed"
+    ],
+    "objectID": "1565277552220_325"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lahsoon",
+      "Garlic"
+    ],
+    "objectID": "1565277552220_324"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "kela",
+    "synonyms": [
+      "Banana"
+    ],
+    "objectID": "1565277552220_323"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Angoor",
+      "Grapes"
+    ],
+    "objectID": "1565277552220_322"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Anaar",
+      "Pomegranate"
+    ],
+    "objectID": "1565277552220_320"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Pyaaz",
+      "Spring Onion"
+    ],
+    "objectID": "1565277552220_32"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tarbooj",
+      "Watermelon"
+    ],
+    "objectID": "1565277552220_319"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ananaas",
+      "Pineapple"
+    ],
+    "objectID": "1565277552220_318"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Papeeta",
+      "Papaya"
+    ],
+    "objectID": "1565277552220_317"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nariyal",
+      "Coconut"
+    ],
+    "objectID": "1565277552220_316"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Amrood",
+      "Guava"
+    ],
+    "objectID": "1565277552220_315"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kiwi",
+      "Kiwi"
+    ],
+    "objectID": "1565277552220_314"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Santara",
+      "Orange"
+    ],
+    "objectID": "1565277552220_313"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chikoo",
+      "Sapota"
+    ],
+    "objectID": "1565277552220_312"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Amla",
+      "Gooseberry"
+    ],
+    "objectID": "1565277552220_311"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Mosambi",
+      "Sweet lime"
+    ],
+    "objectID": "1565277552220_310"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tindora",
+      "Round Gourd"
+    ],
+    "objectID": "1565277552220_31"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Khubani",
+      "Apricot"
+    ],
+    "objectID": "1565277552220_309"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kharbooja",
+      "Muskmelon"
+    ],
+    "objectID": "1565277552220_308"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shahtoot",
+      "Black Berry"
+    ],
+    "objectID": "1565277552220_307"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nashpati",
+      "Pear"
+    ],
+    "objectID": "1565277552220_306"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Alubukhara",
+      "Plum"
+    ],
+    "objectID": "1565277552220_305"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chakotara",
+      "Grapefruit"
+    ],
+    "objectID": "1565277552220_304"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kathal",
+      "Jackfruit"
+    ],
+    "objectID": "1565277552220_303"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Krishna Phal",
+      "Passion Fruit"
+    ],
+    "objectID": "1565277552220_302"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nimbu",
+      "Lemon"
+    ],
+    "objectID": "1565277552220_301"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Papeeta",
+      "Passion Fruit"
+    ],
+    "objectID": "1565277552220_300"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Long Pakora Mirch",
+      "Green Chillies"
+    ],
+    "objectID": "1565277552220_30"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lika",
+      "Leeks"
+    ],
+    "objectID": "1565277552220_299"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chhota santara",
+      "Orange"
+    ],
+    "objectID": "1565277552220_297"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pitaya",
+      "Dragon fruit"
+    ],
+    "objectID": "1565277552220_296"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Babbugosa",
+      "Pear"
+    ],
+    "objectID": "1565277552220_295"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ber",
+      "Plum"
+    ],
+    "objectID": "1565277552220_294"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aam",
+      "Mango"
+    ],
+    "objectID": "1565277552220_293"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kharbooja",
+      "Honeydew Melon"
+    ],
+    "objectID": "1565277552220_292"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Strawberry",
+      "Strawberry"
+    ],
+    "objectID": "1565277552220_291"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tinda",
+      "Apple Gourd"
+    ],
+    "objectID": "1565277552220_290"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tinda",
+      "Apple Gourd"
+    ],
+    "objectID": "1565277552220_29"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shareepha",
+      "Custard Apple"
+    ],
+    "objectID": "1565277552220_289"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aadoo Phal",
+      "Peach"
+    ],
+    "objectID": "1565277552220_288"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Rasabharee",
+      "Raspberry"
+    ],
+    "objectID": "1565277552220_287"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kamrakh",
+      "Star Fruit"
+    ],
+    "objectID": "1565277552220_286"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Karonda",
+      "Carissa Carandas"
+    ],
+    "objectID": "1565277552220_285"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Nariyal",
+      "Tender Coconut"
+    ],
+    "objectID": "1565277552220_284"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ganna",
+      "Sugarcane"
+    ],
+    "objectID": "1565277552220_283"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Papita",
+      "Papaya"
+    ],
+    "objectID": "1565277552220_282"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kala Angoor",
+      "Grapes"
+    ],
+    "objectID": "1565277552220_281"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Anjeer",
+      "Figs"
+    ],
+    "objectID": "1565277552220_280"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "mirchi",
+    "synonyms": [
+      "Red Chilli",
+      "green chilli"
+    ],
+    "objectID": "1565277552220_28"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Seb",
+      "Green Apple"
+    ],
+    "objectID": "1565277552220_279"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Seb",
+      "Apple"
+    ],
+    "objectID": "1565277552220_278"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Seb",
+      "Green Apple"
+    ],
+    "objectID": "1565277552220_277"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kharbooja",
+      "Japanese Melon"
+    ],
+    "objectID": "1565277552220_276"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Babu Gosha",
+      "Pear"
+    ],
+    "objectID": "1565277552220_275"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sarda",
+      "Sun melon"
+    ],
+    "objectID": "1565277552220_274"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aadoo",
+      "Peach"
+    ],
+    "objectID": "1565277552220_273"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Santara",
+      "Kinnow"
+    ],
+    "objectID": "1565277552220_272"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chikoo",
+      "Chikoo"
+    ],
+    "objectID": "1565277552220_271"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bael",
+      "Aegle Marmelos"
+    ],
+    "objectID": "1565277552220_270"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "Tamatar",
+    "synonyms": [
+      "tomato"
+    ],
+    "objectID": "1565277552220_27"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Soap",
+      "Saboon"
+    ],
+    "objectID": "1565277552220_269"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sauce",
+      "Ketchup"
+    ],
+    "objectID": "1565277552220_268"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Crisps",
+      "Chips"
+    ],
+    "objectID": "1565277552220_267"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Soft Drink",
+      "Cold Drink",
+      "Cool Drink"
+    ],
+    "objectID": "1565277552220_266"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chewy Candy",
+      "Candy"
+    ],
+    "objectID": "1565277552220_265"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "snacks",
+    "synonyms": [
+      "biscuits",
+      "chips",
+      "nachos",
+      "namkeen"
+    ],
+    "objectID": "1565277552220_264"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Rice",
+      "Chaval"
+    ],
+    "objectID": "1565277552220_263"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Detergent",
+      "Laundry detergent"
+    ],
+    "objectID": "1565277552220_262"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Body Wash",
+      "Bodywash"
+    ],
+    "objectID": "1565277552220_261"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dip",
+      "Dips"
+    ],
+    "objectID": "1565277552220_260"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Shimla Mirch",
+      "Red Chilli"
+    ],
+    "objectID": "1565277552220_26"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Butter",
+      "makaan",
+      "makan"
+    ],
+    "objectID": "1565277552220_258"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hen",
+      "Chicken",
+      "poultry"
+    ],
+    "objectID": "1565277552220_257"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Energy Drink",
+      "Sports Drink"
+    ],
+    "objectID": "1565277552220_256"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Mints",
+      "Mouth Freshners"
+    ],
+    "objectID": "1565277552220_255"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Namkeen",
+      "savouries"
+    ],
+    "objectID": "1565277552220_253"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Coconut",
+      "Nariyal"
+    ],
+    "objectID": "1565277552220_252"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Immunity Booster",
+      "Chavanprash"
+    ],
+    "objectID": "1565277552220_251"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Rice",
+      "Chaval"
+    ],
+    "objectID": "1565277552220_250"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kakdi",
+      "Lotus Stem"
+    ],
+    "objectID": "1565277552220_25"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ketchup",
+      "Sauce"
+    ],
+    "objectID": "1565277552220_249"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pickle",
+      "Achar"
+    ],
+    "objectID": "1565277552220_248"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hand Sanitizer",
+      "Hand wash"
+    ],
+    "objectID": "1565277552220_247"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Almond",
+      "Badam",
+      "almonds"
+    ],
+    "objectID": "1565277552220_246"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Goat",
+      "Mutton",
+      "Lamb"
+    ],
+    "objectID": "1565277552220_245"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Men",
+      "Male"
+    ],
+    "objectID": "1565277552220_244"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Women",
+      "Female"
+    ],
+    "objectID": "1565277552220_243"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "shaving creams and gels",
+      "shaving creams",
+      "shaving gel",
+      "shaving foam"
+    ],
+    "objectID": "1565277552220_242"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "sanitary wash",
+      "intimate wash"
+    ],
+    "objectID": "1565277552220_241"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "curd",
+      "dahi"
+    ],
+    "objectID": "1565277552220_240"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aadu",
+      "Peach"
+    ],
+    "objectID": "1565277552220_239"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aam",
+      "Mango"
+    ],
+    "objectID": "1565277552220_238"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aamchur",
+      "Dried mango powder"
+    ],
+    "objectID": "1565277552220_237"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Achar",
+      "Pickles"
+    ],
+    "objectID": "1565277552220_236"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Adrak",
+      "Ginger"
+    ],
+    "objectID": "1565277552220_235"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajmud",
+      "Celery seed"
+    ],
+    "objectID": "1565277552220_234"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajwain",
+      "Oregano",
+      "Bishop's weed"
+    ],
+    "objectID": "1565277552220_233"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Akhrot",
+      "Walnuts"
+    ],
+    "objectID": "1565277552220_232"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Aloo",
+      "Potato"
+    ],
+    "objectID": "1565277552220_231"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Amla",
+      "Indian gooseberry"
+    ],
+    "objectID": "1565277552220_230"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Amrud",
+      "Guava"
+    ],
+    "objectID": "1565277552220_229"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ananas",
+      "Pineapple"
+    ],
+    "objectID": "1565277552220_228"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Anar",
+      "Pomegranate"
+    ],
+    "objectID": "1565277552220_227"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Anardana",
+      "Pomegranate seeds"
+    ],
+    "objectID": "1565277552220_226"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Anasphal/Dagad phool",
+      "Star anise"
+    ],
+    "objectID": "1565277552220_225"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Angoor",
+      "Grapes"
+    ],
+    "objectID": "1565277552220_223"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Anjeer",
+      "Figs"
+    ],
+    "objectID": "1565277552220_222"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Arbi",
+      "Colocasia plant"
+    ],
+    "objectID": "1565277552220_221"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Arhar",
+      "Pigeon-peas",
+      "arhar dal",
+      "toor dal",
+      "tuvar dal",
+      "arhar daal",
+      "toor daal",
+      "tuvar daal"
+    ],
+    "objectID": "1565277552220_220"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kachalu",
+      "Colocasia"
+    ],
+    "objectID": "1565277552220_22"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Badam",
+      "Almonds"
+    ],
+    "objectID": "1565277552220_219"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bajra",
+      "Millet",
+      "Bajri"
+    ],
+    "objectID": "1565277552220_217"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bandh gobhi",
+      "Cabbage",
+      "Phool gobhi"
+    ],
+    "objectID": "1565277552220_216"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Besan",
+      "Chick pea flour"
+    ],
+    "objectID": "1565277552220_215"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bhajee",
+      "Vegetable"
+    ],
+    "objectID": "1565277552220_214"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bheja",
+      "Brain"
+    ],
+    "objectID": "1565277552220_213"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Bhindi",
+      "Okra",
+      "Lady's finger"
+    ],
+    "objectID": "1565277552220_212"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chakotra",
+      "Grapefruits"
+    ],
+    "objectID": "1565277552220_211"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chana",
+      "Chick peas ",
+      "Kabuli chana",
+      "chickpea",
+      "chickpeas"
+    ],
+    "objectID": "1565277552220_210"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kakoda",
+      "Momordica Dioica"
+    ],
+    "objectID": "1565277552220_21"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chana dal",
+      "Split chick peas",
+      "Chana daal"
+    ],
+    "objectID": "1565277552220_209"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chatni",
+      "chutney"
+    ],
+    "objectID": "1565277552220_208"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chawal",
+      "Rice"
+    ],
+    "objectID": "1565277552220_207"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chickoo",
+      "Sapodilla",
+      "chikoo"
+    ],
+    "objectID": "1565277552220_206"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chowli",
+      "Black-eyed beans",
+      "lobia"
+    ],
+    "objectID": "1565277552220_205"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chhaach",
+      "Buttermilk",
+      "Chhaas",
+      "Chach",
+      "chaa",
+      "chaach"
+    ],
+    "objectID": "1565277552220_204"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chhilka",
+      "Rind"
+    ],
+    "objectID": "1565277552220_203"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chini",
+      "Sugar",
+      "shakkar"
+    ],
+    "objectID": "1565277552220_202"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chuara",
+      "Dates"
+    ],
+    "objectID": "1565277552220_201"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chulai ka sag",
+      "Amaranth"
+    ],
+    "objectID": "1565277552220_200"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kashmiri Haak",
+      "Collard Greens"
+    ],
+    "objectID": "1565277552220_20"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "24*7",
+    "synonyms": [
+      "24 Seven"
+    ],
+    "objectID": "1565277552220_2"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dagad phool/Anasphal",
+      "Star anise"
+    ],
+    "objectID": "1565277552220_199"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dahi",
+      "Curd"
+    ],
+    "objectID": "1565277552220_198"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dal",
+      "dhal",
+      "daal",
+      "lentil",
+      "lentils"
+    ],
+    "objectID": "1565277552220_197"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dalia",
+      "Cracked wheat",
+      "lapsi",
+      "Broken wheat"
+    ],
+    "objectID": "1565277552220_196"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dalchini",
+      "Cinnamon ",
+      "Darchini"
+    ],
+    "objectID": "1565277552220_195"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dhania",
+      "Coriander"
+    ],
+    "objectID": "1565277552220_194"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Elaichi/ilaichi",
+      "Cardamom"
+    ],
+    "objectID": "1565277552220_192"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gajar",
+      "Carrot"
+    ],
+    "objectID": "1565277552220_191"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kulfa Saag",
+      "Purslane"
+    ],
+    "objectID": "1565277552220_19"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gosht",
+      "Mutton",
+      "Lamb",
+      "Goat"
+    ],
+    "objectID": "1565277552220_189"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gulab",
+      "Rose"
+    ],
+    "objectID": "1565277552220_188"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gulab jal",
+      "Rose water"
+    ],
+    "objectID": "1565277552220_187"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Gur",
+      "Jaggery",
+      "Gud"
+    ],
+    "objectID": "1565277552220_186"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Haldi",
+      "Turmeric"
+    ],
+    "objectID": "1565277552220_185"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Halyan",
+      "Asparagus",
+      "shatwar",
+      "soot mooli"
+    ],
+    "objectID": "1565277552220_184"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara dhania",
+      "Coriander leaves"
+    ],
+    "objectID": "1565277552220_183"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara piaz",
+      "Spring onion",
+      "piaz",
+      "pyaz"
+    ],
+    "objectID": "1565277552220_182"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Heeng",
+      "Asafoetida"
+    ],
+    "objectID": "1565277552220_181"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ilaichi",
+      "Cardamom",
+      "elaichi"
+    ],
+    "objectID": "1565277552220_180"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lal Mooli",
+      "Radish"
+    ],
+    "objectID": "1565277552220_18"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Imli",
+      "Tamarind"
+    ],
+    "objectID": "1565277552220_179"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Jaee",
+      "Oats"
+    ],
+    "objectID": "1565277552220_178"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Jaiphal/zaiphal",
+      "Nutmeg"
+    ],
+    "objectID": "1565277552220_177"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Jau",
+      "Barley"
+    ],
+    "objectID": "1565277552220_176"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Javitri",
+      "Mace"
+    ],
+    "objectID": "1565277552220_175"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Phaliyaan",
+      "Beans"
+    ],
+    "objectID": "1565277552220_174"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Jeera",
+      "Cumin",
+      "siya jeera"
+    ],
+    "objectID": "1565277552220_173"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Jowar",
+      "Barley"
+    ],
+    "objectID": "1565277552220_172"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Jungli dalchini",
+      "Cassia",
+      "Dalchini"
+    ],
+    "objectID": "1565277552220_171"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kabuli chana",
+      "White gram"
+    ],
+    "objectID": "1565277552220_170"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Singara",
+      "Water Chestnut"
+    ],
+    "objectID": "1565277552220_17"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaddu",
+      "Pumpkin"
+    ],
+    "objectID": "1565277552220_169"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaju",
+      "Cashew nuts"
+    ],
+    "objectID": "1565277552220_168"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kakari",
+      "Cucumber"
+    ],
+    "objectID": "1565277552220_167"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kala namak",
+      "rock salt"
+    ],
+    "objectID": "1565277552220_166"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaleja",
+      "Liver"
+    ],
+    "objectID": "1565277552220_165"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kali mirch",
+      "Pepper"
+    ],
+    "objectID": "1565277552220_164"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kakdi",
+      "Cucumber"
+    ],
+    "objectID": "1565277552220_163"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kalonji",
+      "Nigella",
+      "onion seed"
+    ],
+    "objectID": "1565277552220_162"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kamrakh",
+      "Starfruit",
+      "carambola"
+    ],
+    "objectID": "1565277552220_161"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kathal",
+      "Jackfruit"
+    ],
+    "objectID": "1565277552220_160"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ajavaayan ke phool sabjee",
+      "Thyme"
+    ],
+    "objectID": "1565277552220_16"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Keema",
+      "Minced",
+      "kheema"
+    ],
+    "objectID": "1565277552220_159"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Saffron",
+      "Kesar",
+      "kesari",
+      "zafran"
+    ],
+    "objectID": "1565277552220_157"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Screwpine",
+      "Keora",
+      "kewra"
+    ],
+    "objectID": "1565277552220_156"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dates",
+      "Khajur",
+      "khajoor",
+      "khajor"
+    ],
+    "objectID": "1565277552220_155"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Melon",
+      "Kharbuja",
+      "tarbooz"
+    ],
+    "objectID": "1565277552220_154"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Poppy seeds",
+      "Khas khas",
+      "khus khus"
+    ],
+    "objectID": "1565277552220_153"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lobiya Sem",
+      "Beans"
+    ],
+    "objectID": "1565277552220_152"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sour",
+      "Khatta"
+    ],
+    "objectID": "1565277552220_151"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Milk pudding",
+      "Kheer"
+    ],
+    "objectID": "1565277552220_150"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Hara Pyaaz",
+      "Onion"
+    ],
+    "objectID": "1565277552220_15"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Cucumber",
+      "Kheera"
+    ],
+    "objectID": "1565277552220_149"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Coconut",
+      "Khopra",
+      "Nariyal"
+    ],
+    "objectID": "1565277552220_148"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Apricots",
+      "Khubani",
+      "zardalu"
+    ],
+    "objectID": "1565277552220_147"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Raisins",
+      "Kismis"
+    ],
+    "objectID": "1565277552220_146"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Korma",
+      "khorma"
+    ],
+    "objectID": "1565277552220_145"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Icecream",
+      "Kulfi",
+      "ice cream"
+    ],
+    "objectID": "1565277552220_144"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Mushroom",
+      "Kumbhi"
+    ],
+    "objectID": "1565277552220_143"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Garlic",
+      "Lahsun"
+    ],
+    "objectID": "1565277552220_142"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Patta Gobhi",
+      "Chinese Cabbage"
+    ],
+    "objectID": "1565277552220_141"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Red chilis",
+      "Lal mirch"
+    ],
+    "objectID": "1565277552220_140"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaccha Papeeta",
+      "Raw Papaya"
+    ],
+    "objectID": "1565277552220_14"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Cracked wheat",
+      "Lapsi",
+      "dalia",
+      "Broken wheat"
+    ],
+    "objectID": "1565277552220_139"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "A variety of north Indian gourd",
+      "Lauki",
+      "ghia"
+    ],
+    "objectID": "1565277552220_138"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Cloves",
+      "Lavang",
+      "laung"
+    ],
+    "objectID": "1565277552220_137"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Black-eyed beans",
+      "Lobia",
+      "chowli"
+    ],
+    "objectID": "1565277552220_136"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Fish",
+      "Machhli",
+      "machchhi"
+    ],
+    "objectID": "1565277552220_135"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Honey",
+      "Madhu"
+    ],
+    "objectID": "1565277552220_134"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "flour",
+    "synonyms": [
+      "Maida"
+    ],
+    "objectID": "1565277552220_133"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Corn",
+      "Makai"
+    ],
+    "objectID": "1565277552220_132"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Cream",
+      "Malai"
+    ],
+    "objectID": "1565277552220_131"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Arbi",
+      "Colocasia"
+    ],
+    "objectID": "1565277552220_130"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Petha",
+      "Ash Gourd"
+    ],
+    "objectID": "1565277552220_13"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Butter",
+      "Makhan",
+      "Makkhan"
+    ],
+    "objectID": "1565277552220_129"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Red lentils",
+      "Masoor",
+      "red massor",
+      "red masoor",
+      "lal masoor"
+    ],
+    "objectID": "1565277552220_128"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Spices",
+      "Masala"
+    ],
+    "objectID": "1565277552220_127"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Peas",
+      "Matar"
+    ],
+    "objectID": "1565277552220_126"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Fenugreek",
+      "Methi"
+    ],
+    "objectID": "1565277552220_125"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Dried fruits",
+      "Mewa"
+    ],
+    "objectID": "1565277552220_124"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chilis",
+      "Mirch",
+      "Mirchi",
+      "Chillies"
+    ],
+    "objectID": "1565277552220_123"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Radish",
+      "Mooli"
+    ],
+    "objectID": "1565277552220_122"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Mung beans",
+      "Moong"
+    ],
+    "objectID": "1565277552220_121"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Ground nuts",
+      "Moongphali"
+    ],
+    "objectID": "1565277552220_120"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Tulsi",
+      "Italian Basil"
+    ],
+    "objectID": "1565277552220_119"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Sultanas or large raisins (also bara kismis; see kismis)",
+      "Munakka"
+    ],
+    "objectID": "1565277552220_118"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Chicken",
+      "Murg",
+      "murgi"
+    ],
+    "objectID": "1565277552220_117"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Salt",
+      "Namak",
+      "nimak"
+    ],
+    "objectID": "1565277552220_116"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Coconut",
+      "Nariyal",
+      "khopra"
+    ],
+    "objectID": "1565277552220_115"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Lemon",
+      "Nimbu"
+    ],
+    "objectID": "1565277552220_114"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Spinach",
+      "Palak"
+    ],
+    "objectID": "1565277552220_113"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "cottage cheese",
+    "synonyms": [
+      "Paneer"
+    ],
+    "objectID": "1565277552220_112"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Papadom",
+      "Papar",
+      "papad",
+      "papadam"
+    ],
+    "objectID": "1565277552220_111"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Papaya",
+      "Papita"
+    ],
+    "objectID": "1565277552220_110"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Phool Gobhi",
+      "Cabbage"
+    ],
+    "objectID": "1565277552220_11"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Rice flakes",
+      "Pauwa",
+      "poha"
+    ],
+    "objectID": "1565277552220_109"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kakdi",
+      "Armenian Cucumber"
+    ],
+    "objectID": "1565277552220_108"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Cauliflower",
+      "Phool Gobhi"
+    ],
+    "objectID": "1565277552220_107"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Onions",
+      "Piaz",
+      "pyaz"
+    ],
+    "objectID": "1565277552220_106"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Pistachio",
+      "Pista"
+    ],
+    "objectID": "1565277552220_105"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Rice flakes",
+      "Poha",
+      "pauwa"
+    ],
+    "objectID": "1565277552220_104"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Mint",
+      "Pudina"
+    ],
+    "objectID": "1565277552220_103"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Mustard seeds",
+      "Raai",
+      "sarson"
+    ],
+    "objectID": "1565277552220_102"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Leg of mutton",
+      "Raan",
+      "Mutton Leg"
+    ],
+    "objectID": "1565277552220_101"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Red Kidney beans",
+      "Rajma"
+    ],
+    "objectID": "1565277552220_100"
+  },
+  {
+    "type": "synonym",
+    "synonyms": [
+      "Kaddoo",
+      "Round Gourd"
+    ],
+    "objectID": "1565277552220_10"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "24/7",
+    "synonyms": [
+      "24 Seven"
+    ],
+    "objectID": "1565277552220_1"
+  },
+  {
+    "type": "onewaysynonym",
+    "input": "twenty four seven",
+    "synonyms": [
+      "24 Seven"
+    ],
+    "objectID": "1565277552220_0"
+  }
+]

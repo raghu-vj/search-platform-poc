@@ -1,0 +1,195 @@
+{
+  "size": 2000,
+  "explain": false,
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "nested": {
+            "path": "category",
+            "boost": 20,
+            "query": {
+              "match": {
+                "category.name.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 19,
+            "query": {
+              "match": {
+                "attributes.type.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 18,
+            "query": {
+              "match": {
+                "attributes.product_name.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 17,
+            "query": {
+              "match": {
+                "attributes.brand.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 16,
+            "query": {
+              "match": {
+                "attributes.model_name.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 15,
+            "query": {
+              "match": {
+                "attributes.sub_category/L3.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 14,
+            "query": {
+              "match": {
+                "attributes.category/I2.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 13,
+            "query": {
+              "match": {
+                "attributes.category/L2.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 12,
+            "query": {
+              "match": {
+                "attributes.super_category/I1.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 11,
+            "query": {
+              "match": {
+                "attributes.sub_category/I1.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 10,
+            "query": {
+              "match": {
+                "attributes.pack_type.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost": 9,
+            "query": {
+              "match": {
+                "attributes.form_factor.exhaustive": "$query$"
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "category",
+            "query": {
+              "multi_match": {
+                "query": "$query$",
+                "fields": ["category.name.exhaustive"],
+                "boost": 8
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "query": {
+              "multi_match": {
+                "query": "$query$",
+                "fields": [
+                  "attributes.type.exhaustive",
+                  "attributes.product_name.exhaustive",
+                  "attributes.brand.exhaustive",
+                  "attributes.model_name.exhaustive",
+                  "attributes.sub_category/L3.exhaustive",
+                  "attributes.category/I2.exhaustive",
+                  "attributes.category/L2.exhaustive",
+                  "attributes.super_category/I1.exhaustive",
+                  "attributes.sub_category/I1.exhaustive",
+                  "attributes.pack_type.exhaustive",
+                  "attributes.form_factor.exhaustive"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "nested": {
+            "path": "attributes",
+            "boost" : 2,
+            "query": {
+              "prefix": {
+                "attributes.product_name.exhaustive": {
+                  "value": "$query$"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "_source": {
+    "include": [
+      "attributes.product_name", "attributes.productId"
+    ]
+  }
+}
