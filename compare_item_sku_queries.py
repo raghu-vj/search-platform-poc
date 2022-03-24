@@ -3,6 +3,7 @@ import os
 import item_sku_dump
 import requests
 from scipy.stats import kendalltau
+from rule_to_template_data import get_es_request_for_query
 
 def levenshtein(a, b):
     "Calculates the Levenshtein distance between a and b."
@@ -44,12 +45,13 @@ def get_dashservice_response(query):
 
 
 def get_es_response(query):
-    with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/es_query_test.json", "r") as f:
+#     with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/es_query_test.json", "r") as f:
         url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v6/_search"
         headers = {
             'Content-Type': 'application/json'
         }
-        es_query = f.read().replace("$query$", query)
+#         es_query = f.read().replace("$query$", query)
+        es_query = get_es_request_for_query(query)
         response = requests.request("POST", url, headers=headers, data=es_query)
         json_data = json.loads(response.text)
         final_names_list = []
