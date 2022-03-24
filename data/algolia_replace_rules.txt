@@ -1,0 +1,82 @@
+{"params":{"query":{"edits":[{"type":"replace","delete":"Buiscut","insert":"Biscuit"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Diary milk","insert":"Dairy Milk"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Efg","insert":"Egg"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"sweet curd","insert":"misti"},{"type":"replace","delete":"sweetcurd","insert":"misti"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"sweet curd","insert":"misti"},{"type":"replace","delete":"sweetcurd","insert":"misti"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"amo","insert":"amul"},{"type":"replace","delete":"ami","insert":"amul"},{"type":"replace","delete":"amy","insert":"amul"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"amo","insert":"amul"},{"type":"replace","delete":"ami","insert":"amul"},{"type":"replace","delete":"amy","insert":"amul"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Buis","insert":"Bisc"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Xhi","insert":"Chi"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"riv","insert":"ric"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"pab","insert":"pan"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"cog","insert":"cig"},{"type":"replace","delete":"cir","insert":"cig"},{"type":"replace","delete":"cug","insert":"cig"},{"type":"replace","delete":"cih","insert":"cig"},{"type":"replace","delete":"cic","insert":"cif"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"cog","insert":"cig"},{"type":"replace","delete":"cir","insert":"cig"},{"type":"replace","delete":"cug","insert":"cig"},{"type":"replace","delete":"cih","insert":"cig"},{"type":"replace","delete":"cic","insert":"cif"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"cog","insert":"cig"},{"type":"replace","delete":"cir","insert":"cig"},{"type":"replace","delete":"cug","insert":"cig"},{"type":"replace","delete":"cih","insert":"cig"},{"type":"replace","delete":"cic","insert":"cif"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"cog","insert":"cig"},{"type":"replace","delete":"cir","insert":"cig"},{"type":"replace","delete":"cug","insert":"cig"},{"type":"replace","delete":"cih","insert":"cig"},{"type":"replace","delete":"cic","insert":"cif"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"cog","insert":"cig"},{"type":"replace","delete":"cir","insert":"cig"},{"type":"replace","delete":"cug","insert":"cig"},{"type":"replace","delete":"cih","insert":"cig"},{"type":"replace","delete":"cic","insert":"cif"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ono","insert":"oni"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"cue","insert":"cur"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"suh","insert":"sug"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"kim","insert":"lim"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"som","insert":"son"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"way","insert":"wat"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"bui","insert":"buj"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ive","insert":"ice"},{"type":"replace","delete":"i've","insert":"ice"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ive","insert":"ice"},{"type":"replace","delete":"i've","insert":"ice"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"brr","insert":"bre"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"you","insert":"yog"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"bus","insert":"bis"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ammilk","insert":"amul milk"},{"type":"replace","delete":"amumilk","insert":"amul milk"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ammilk","insert":"amul milk"},{"type":"replace","delete":"amumilk","insert":"amul milk"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Amuicecream","insert":"Amul ice cream"},{"type":"replace","delete":"Amulicecream","insert":"Amul ice cream"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Amuicecream","insert":"Amul ice cream"},{"type":"replace","delete":"Amulicecream","insert":"Amul ice cream"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ali","insert":"aloo"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ehg","insert":"eggs"},{"type":"replace","delete":"agg","insert":"eggs"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ehg","insert":"eggs"},{"type":"replace","delete":"agg","insert":"eggs"}]}},"filterPromotes":true}
+{"hide":[{"objectID":"543781845"}],"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"mlk","insert":"milk"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Urdu","insert":"urad"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"NandiniCurd","insert":"Nandini Curd"},{"type":"replace","delete":"NanCurd","insert":"Nandini Curd"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"NandiniCurd","insert":"Nandini Curd"},{"type":"replace","delete":"NanCurd","insert":"Nandini Curd"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Jagerr","insert":"jagger"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Vannila","insert":"vanilla"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"spt","insert":"Spr"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"Kothm","insert":"Kotha"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"cox","insert":"coc"},{"type":"replace","delete":"coxnut","insert":"coconut"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"cox","insert":"coc"},{"type":"replace","delete":"coxnut","insert":"coconut"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"suk","insert":"sul"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"kiv","insert":"kiw"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"tatasalt","insert":"tata salt"},{"type":"replace","delete":"tasalt","insert":"tata salt"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"tatasalt","insert":"tata salt"},{"type":"replace","delete":"tasalt","insert":"tata salt"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ami","insert":"amu"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ricebran","insert":"rice bran"},{"type":"replace","delete":"ricebr","insert":"rice bran"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"ricebran","insert":"rice bran"},{"type":"replace","delete":"ricebr","insert":"rice bran"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"electric","insert":"LED Lights"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"nandinimilk","insert":"nandini milk"},{"type":"replace","delete":"nandhinimilk","insert":"nandini milk"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"nandinimilk","insert":"nandini milk"},{"type":"replace","delete":"nandhinimilk","insert":"nandini milk"}]}},"filterPromotes":true}
+{"params":{"automaticOptionalFacetFilters":[{"facet":"category.name","disjunctive":false,"score":2}]},"filterPromotes":false}
+{"params":{"query":{"edits":[{"type":"replace","delete":"bordark","insert":"bournville dark"},{"type":"replace","delete":"bournvdark","insert":"bournville dark"},{"type":"replace","delete":"bournvilldark","insert":"bournville dark"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"bordark","insert":"bournville dark"},{"type":"replace","delete":"bournvdark","insert":"bournville dark"},{"type":"replace","delete":"bournvilldark","insert":"bournville dark"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"bordark","insert":"bournville dark"},{"type":"replace","delete":"bournvdark","insert":"bournville dark"},{"type":"replace","delete":"bournvilldark","insert":"bournville dark"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"allou","insert":"all out"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"aleovera","insert":"aloe vera"},{"type":"replace","delete":"aelov","insert":"aloe vera"},{"type":"replace","delete":"aleov","insert":"aloe vera"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"aleovera","insert":"aloe vera"},{"type":"replace","delete":"aelov","insert":"aloe vera"},{"type":"replace","delete":"aleov","insert":"aloe vera"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"aleovera","insert":"aloe vera"},{"type":"replace","delete":"aelov","insert":"aloe vera"},{"type":"replace","delete":"aleov","insert":"aloe vera"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"supari","insert":"mouth freshner"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"plastic bags","insert":"garbage bag"},{"type":"replace","delete":"plasticbags","insert":"garbage bag"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"plastic bags","insert":"garbage bag"},{"type":"replace","delete":"plasticbags","insert":"garbage bag"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"dry fruits","insert":"Dried Fruits"},{"type":"replace","delete":"dryfruits","insert":"Dried Fruits"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"dry fruits","insert":"Dried Fruits"},{"type":"replace","delete":"dryfruits","insert":"Dried Fruits"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"amulcream","insert":"amul cream"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"amulbutter","insert":"amul butter"}]}},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"veggies","insert":"fresh vegetables"}]}}}
+{"params":{"query":{"edits":[{"type":"replace","delete":"vegetable","insert":"fresh vegetables"}]}}}
+{"params":{"query":{"edits":[{"type":"replace","delete":"fruit","insert":"fresh fruits"},{"type":"replace","delete":"fruits","insert":"fresh fruits"}]}}}
+{"params":{"query":{"edits":[{"type":"replace","delete":"fruits","insert":"fresh fruits"}]}}}
+{"params":{"query":{"edits":[{"type":"replace","delete":"doodh","insert":"milk"}]}}}
+{"params":{"automaticOptionalFacetFilters":[{"facet":"attributes.sub-category/L3"}]},"filterPromotes":true}
+{"params":{"automaticOptionalFacetFilters":[{"facet":"attributes.category/L2"}]},"filterPromotes":true}
+{"params":{"automaticOptionalFacetFilters":[{"facet":"attributes.form factor"}]},"filterPromotes":true}
+{"params":{"automaticOptionalFacetFilters":[{"facet":"attributes.type","disjunctive":false,"score":6}]},"filterPromotes":false}
+{"params":{"query":"surf excel"},"filterPromotes":true}
+{"params":{"query":{"edits":[{"type":"replace","delete":"gingerale","insert":"ginger ale"}]}}}
