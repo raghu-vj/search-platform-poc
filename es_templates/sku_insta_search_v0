@@ -176,6 +176,13 @@ POST _scripts/sku_insta_search_v0
                         }
                       }
                     },
+                    {{#rules}}
+                    {
+                     "bool" : {
+                         "should" : {{#toJson}}rules{{/toJson}}{{^rules}}[]{{/rules}}
+                         }
+                    },
+                    {{/rules}}
                     {
                       "nested": {
                         "path": "attributes",
@@ -188,11 +195,6 @@ POST _scripts/sku_insta_search_v0
                           }
                         }
                       }
-                    },
-                    {
-                        "bool" : {
-                            "should" : {{#toJson}}rules{{/toJson}}{{^rules}}[ { "match":{"spin":{ "query":"xxxxx"} } }]{{/rules}}
-                          }
                     }
                   ]
                 }
