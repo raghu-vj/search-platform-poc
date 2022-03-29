@@ -35,7 +35,7 @@ def get_indexable_doc(obj):
     return doc
 
 
-with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/instamart_store_73903.json", 'r') as data:
+with open("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/instamart_store_73903.json", 'r') as data:
     data_json = json.load(data)
     for obj in data_json:
         doc = get_indexable_doc(obj)

@@ -26,7 +26,7 @@ def levenshtein(a, b):
     return current[n]
 
 def get_dashservice_response(query):
-    url = "http://localhost:8080/api/dash/search/menu"
+    url = "https://dash-search.d1.singapore.swig.gy/api/dash/search/menu"
     payload = "{\n    \"storeId\": \"73903\",\n    \"query\": \""+query+"\",\n    \"userId\" : \"123\",\n    \"cityId\" : 1,\n    \"searchSource\": \"ALGOLIA\"\n}"
     headers = {
         'Content-Type': 'application/json',
@@ -35,10 +35,16 @@ def get_dashservice_response(query):
     }
     response = requests.request("POST", url, headers=headers, data=payload)
     json_data = json.loads(response.text)
+    print("response from algolia: {}".format(json_data))
     final_names_list = []
     for info in json_data['data']['productInfos']:
-        final_names_list.append(item_sku_dump.get_product_name_from_id(info['productId'])['attributes']['product name'])
-    with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/algolia.txt", "w") as f:
+        try:
+            product_name = item_sku_dump.get_product_name_from_id(info['productId'])['attributes']['product name']
+            print("product name: {}".format(product_name))
+            final_names_list.append(product_name)
+        except:
+            print('error ignored')
+    with open("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries/" + query + "/algolia.txt", "w") as f:
         for name in final_names_list:
             f.write("%s\n" % name)
     return final_names_list
@@ -46,18 +52,20 @@ def get_dashservice_response(query):
 
 def get_es_response(query):
 #     with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/es_query_test.json", "r") as f:
-        url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v6/_search"
+        url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v6/_search/template"
         headers = {
             'Content-Type': 'application/json'
         }
 #         es_query = f.read().replace("$query$", query)
         es_query = get_es_request_for_query(query)
+        print('es query data: {}'.format(es_query))
         response = requests.request("POST", url, headers=headers, data=es_query)
+        print('response is: {}'.format(response.text))
         json_data = json.loads(response.text)
         final_names_list = []
         for hit in json_data['hits']['hits']:
             final_names_list.append(hit['_source']['attributes']['product_name'])
-        with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/es.txt", "w") as f:
+        with open("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries/" + query + "/es.txt", "w") as f:
             for name in final_names_list:
                 f.write("%s\n" % name)
         return final_names_list
@@ -65,7 +73,7 @@ def get_es_response(query):
 
 def read_from_dumped_file(query):
     list = []
-    f = open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/algolia.txt", 'r')
+    f = open("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries" + query + "/algolia.txt", 'r')
     for line in f.readlines():
         list.append(line)
     return list
@@ -78,8 +86,8 @@ def compare():
     for query in queries:
         get_dashservice_response(query)
         get_es_response(query)
-        dash_file = "/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/algolia.txt"
-        es_file = "/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/es.txt"
+        dash_file = "/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries/" + query + "/algolia.txt"
+        es_file = "/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries/" + query + "/es.txt"
 
         # FILE reading
         # build es list

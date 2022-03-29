@@ -29,8 +29,10 @@ def get_product_name_from_id(id):
     filter_query = "store_id:73903 AND attributes.product_id:" + id
     algolia_result = index.browse_objects({'filters': filter_query})
     for hit in algolia_result:
+        print('json data: {}'.format(json.dumps(hit)))
         return hit
 
 
 if __name__ == "__main__":
-    hit_algolia_and_dump_file()
+    print 'hello'
+#     hit_algolia_and_dump_file()

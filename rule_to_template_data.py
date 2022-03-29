@@ -81,15 +81,15 @@ def get_templatised_rule_data(query):
             else:
                 anchoring = row[4]
                 pattern = row[5]
-                print('anchoring: {} , pattern: {} and query: {}'.format(anchoring,pattern,query))
+#                 print('anchoring: {} , pattern: {} and query: {}'.format(anchoring,pattern,query))
                 if (row[1] == 'TRUE' and ((anchoring == 'is' and pattern == query) or (anchoring == 'contains' and query.find(pattern) != -1 ))):
                     consequence_json = row[8]
-                    print consequence_json
+#                     print consequence_json
                     consequence = json.loads(consequence_json)
                     return convert_rule_to_template(anchoring,consequence)
             line_count += 1
                 # print(' anchoring: {} , consequence  {} '.format(anchoring,consequence))
-        print('Processed {} lines.'.format(line_count))
+#         print('Processed {} lines.'.format(line_count))
         return []
 
 
