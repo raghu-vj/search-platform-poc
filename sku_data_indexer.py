@@ -2,7 +2,7 @@ import json
 
 import requests
 
-url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v6"
+url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v7"
 headers = {
     'User-Agent': '-t',
     'Content-Type': 'application/json'
@@ -35,7 +35,7 @@ def get_indexable_doc(obj):
     return doc
 
 
-with open("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/instamart_store_73903.json", 'r') as data:
+with open("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/instamart_store_810366.json", 'r') as data:
     data_json = json.load(data)
     for obj in data_json:
         doc = get_indexable_doc(obj)

@@ -26,8 +26,8 @@ def levenshtein(a, b):
     return current[n]
 
 def get_dashservice_response(query):
-    url = "https://dash-search.d1.singapore.swig.gy/api/dash/search/menu"
-    payload = "{\n    \"storeId\": \"73903\",\n    \"query\": \""+query+"\",\n    \"userId\" : \"123\",\n    \"cityId\" : 1,\n    \"searchSource\": \"ALGOLIA\"\n}"
+    url = "http://localhost:8080/api/dash/search/menu"
+    payload = "{\n    \"storeId\": \"810366\",\n    \"query\": \""+query+"\",\n    \"userId\" : \"123\",\n    \"cityId\" : 5,\n    \"searchSource\": \"ALGOLIA\"\n}"
     headers = {
         'Content-Type': 'application/json',
         'swuid': 'raghu_swuid',
@@ -35,12 +35,12 @@ def get_dashservice_response(query):
     }
     response = requests.request("POST", url, headers=headers, data=payload)
     json_data = json.loads(response.text)
-    print("response from algolia: {}".format(json_data))
+#     print("response from algolia: {}".format(json_data))
     final_names_list = []
     for info in json_data['data']['productInfos']:
         try:
             product_name = item_sku_dump.get_product_name_from_id(info['productId'])['attributes']['product name']
-            print("product name: {}".format(product_name))
+#             print("product name: {}".format(product_name))
             final_names_list.append(product_name)
         except:
             print('error ignored')
@@ -52,15 +52,15 @@ def get_dashservice_response(query):
 
 def get_es_response(query):
 #     with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/es_query_test.json", "r") as f:
-        url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v6/_search/template"
+        url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v7/_search/template"
         headers = {
             'Content-Type': 'application/json'
         }
 #         es_query = f.read().replace("$query$", query)
         es_query = get_es_request_for_query(query)
-        print('es query data: {}'.format(es_query))
+#         print('es query data: {}'.format(es_query))
         response = requests.request("POST", url, headers=headers, data=es_query)
-        print('response is: {}'.format(response.text))
+#         print('response is: {}'.format(response.text))
         json_data = json.loads(response.text)
         final_names_list = []
         for hit in json_data['hits']['hits']:
@@ -73,17 +73,21 @@ def get_es_response(query):
 
 def read_from_dumped_file(query):
     list = []
-    f = open("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries" + query + "/algolia.txt", 'r')
+    f = open("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries/" + query + "/algolia.txt", 'r')
     for line in f.readlines():
         list.append(line)
     return list
 
 
 def compare():
-    # queries = os.listdir("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries")
-    queries = ['apple']
+    queries = os.listdir("/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries/")
+#     queries = ['apple']
     print("QUERY,algolia-recall-length,es-recall-length,levenstein-distance,kendalltau,recall-similarity,recall-similarity %,recall-absent")
     for query in queries:
+#         if query in ['apple','peanut','Sugar','egg','sweet','jeera','Water','lemon','Rice','chips','vegetable','paneer','Cheese','Chocolate']:
+        if query in ['Chocolate']:
+            continue
+#         print query
         get_dashservice_response(query)
         get_es_response(query)
         dash_file = "/Users/mayank.solanki/Documents/workspace/search-platform-poc/dumps/queries/" + query + "/algolia.txt"

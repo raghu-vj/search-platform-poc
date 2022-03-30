@@ -1,0 +1,30 @@
+QUERY,algolia-recall-length,es-recall-length,levenstein-distance,kendalltau,recall-similarity,recall-similarity %,recall-absent
+apple, 41, 61, 50, 1.0, 41, 100,
+peanut, 74, 103, 93, 0.649390243902, 73, 98, Peanut Butter Jam Combo
+Sugar, 96, 124, 105, 0.341855788567, 84, 87, Diced Sugarcane (Ganna)|Maya Kabab Chini|Lo Foods Sugarfree Premium Chocolates|Smoodies Super Sugarcane Juice (Bottle)|Raw Pressery Sugarcane Juice (Bottle)|Lo Foods Sugarfree Chocolate Rochers|Mentos Pure Fresh Sugarfree Mint Chewing Gum with Green Tea extract|Yogabar No Added Sugar Chocolate Fudge Brownie Dessert Bar|Mentos Pure Fresh Sugarfree Spearmint Chewing Gum|Yogabar No Added Sugar Nutty Fudge Brownie Dessert Bar|Center Fresh Mints Sugarfree Peppermint Mint|Wrigley's Orbit Spearmint Chewing Gum Sugarfree
+egg, 63, 95, 83, 0.194479297365, 57, 90, Organic Certified Brinjal Big Bharta|Vari Brinjal|Brinjal Nagpur (Vankaya)|Long Purple Brinjal (Baingan)|Purple Bharta Brinjal (Baingan)|Natures Plus Brinjal Round Seeds
+sweet, 106, 147, 131, 1.0, 103, 97, Maya Sugar Powder|Sugarfree Green 100% Natural Made From Stevia|Maya Sugar Mishri Dana
+jeera, 25, 37, 27, 1.0, 25, 100,
+Water, 54, 84, 68, 0.377148634985, 45, 83, Kiran Watermelon (Tarbooj)|Hansaplast Waterproof Bandaid|Nivea Waterlily & Oil Shower Gel Body Wash|Airwick Fresh Waters Air Freshener Gel|Biotique Bio Watercress Fresh Nourishing Conditioner|Alpenliebe Juzt Jelly Watermelon & Pineapple Flavour Cars N Planes Jelly Candies|Maybelline New York Colossal Waterproof Mascara|Red Bull Energy Drink Watermelon The Red Edition|Ambi Pur Car Air Freshener Refill Aqua Watery Citrus Freshness
+lemon, 69, 100, 85, 1.0, 69, 100,
+Rice, 136, 206, 186, 1.0, 131, 96, Baskin Robbins Kulfi Falooda Sundae Ice Cream|Kwality Walls Cornetto Chokissimo Combo|NIC Chocochips Ice Cream Combo|Baskin Robbins Bavarian Chocolate Cone Combo|Baskin Robbins Bavarian Chocolate Cone Combo
+chips, 142, 689, 670, 1.0, 142, 100,
+vegetable, 122, 477, 457, 1.0, 122, 100,
+paneer, 18, 34, 25, 1.0, 18, 100,
+Cheese, 124, 182, 158, 0.26485937953, 118, 95, Cheeseful Naan|DIY Cheesecake Combo|Peppy Cheeseball Combo|Peppy Cheeseball|McCain Chilli Cheesy Nuggets|GetAWhey Healthy Ice Creams Keto Blueberry Cheesecake
+tea, 144, 217, 202, 1.0, 144, 100,
+honey, 42, 66, 55, 1.0, 42, 100,
+pea, 120, 137, 129, 0.0482490281505, 102, 85, Satyam Vatana Safed|Satyam Black Vatana|Satyam Green Vatana|Haldiram's Tasty Nuts|Dhara Filtered Groundnut Oil|Bikaji Punjabi Tadka|Safe Harvest Groundnut|Maya Groundnut|Maya Groundnut|Dhara Filtered Groundnut Oil|Gemini Filtered Groundnut Oil|Fortune Groundnut Oil|Satyam Singdana|Maya Green Vatana|Peanut Butter Jam Combo|Mom Matar Pulao|Gits Ready Meals Matar Paneer 285 gm|Maya WHITe Vatana
+Butter, 100, 136, 117, 0.17793594306, 86, 86, Epigamia Roasted Garlic and Herbs Buttery Spread|Butterfly Table Tennis Bat|Butter Jam Combo|Peanut Butter Jam Combo|Cello Butterflow Simply Blue Ball Pen|Amul Butterscotch Bliss Ice Cream|Dukes Truffel Butterscotch|Betty Crocker Buttermilk Pancake Mix|Rage Coffee Butterscotch Delight|Himalaya Cocoa Butter Intensive Body Lotion|The Brooklyn Creamery Butterscotch Ice Cream|Kwality Wall's Crunchilicious Butterscotch|Kwality Wall's Cornetto Butterscotch|Charlie Peanut Chikki Butterscotch
+almond, 102, 141, 124, 0.219817997978, 100, 98, Almond Corn Flakes And Milk Combo|Bagrry's No Added Sugar Muesli Jar
+Coffee, 116, 150, 131, 0.367947386639, 108, 93, Country Bean Vanilla Filter Coffee | Liquid Decoction (20 Cups)|Country Bean Vanilla Instant Coffee|Country Bean Caramel Instant Coffee|Country Bean Hazelnut Filter Coffee | Liquid Decoction (20 Cups)|Country Bean Original Instant Coffee|Country Bean Mint Instant Coffee|Country Bean Hazelnut Instant Coffee|Nescafe Intense Cafe Ready to drink Cold Coffeel Tetra Pak Combo
+icecream, 113, 434, 414, 1.0, 113, 100,
+corn, 91, 126, 115, 0.481740870435, 90, 98, Almond Corn Flakes And Milk Combo
+noodle, 132, 212, 180, 0.910761154856, 130, 98, Maggi Cuppa Noodles Masala -Set Of 2|Top Ramen Cup Noodles Mazedaar Masala - Set Of 2
+chicken, 144, 220, 198, 0.730049261084, 143, 99, iD Malabar Parotta, Chicken Cafreal paste combo
+fruits, 139, 752, 733, 1.0, 139, 100,
+snacks, 148, 1069, 1049, 1.0, 148, 100,
+garlic, 56, 121, 107, 1.0, 56, 100,
+tomato, 67, 106, 89, 0.509099393374, 66, 98, Piknink Classic Tomato Combo
+cashew, 33, 56, 47, 0.0760368663594, 30, 90, Maya Kaju Tukda|Amul Kaju Katri|Haldiram's Masala Kaju
+orange, 72, 96, 85, 1.0, 72, 100,
