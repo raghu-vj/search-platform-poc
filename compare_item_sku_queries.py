@@ -43,7 +43,7 @@ def get_dashservice_response(query):
     final_names_list = []
     for info in json_data['data']['productInfos']:
         final_names_list.append(item_sku_dump.get_product_name_from_id(info['productId'])['attributes']['product name'])
-    with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/algolia.txt", "w") as f:
+    with open("dumps/queries/" + query + "/algolia.txt", "w") as f:
         for name in final_names_list:
             f.write("%s\n" % name)
     return final_names_list
@@ -68,21 +68,21 @@ def get_es_response(query):
 
 def read_from_dumped_file(query):
     list = []
-    f = open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/algolia.txt", 'r')
+    f = open("dumps/queries/" + query + "/algolia.txt", 'r')
     for line in f.readlines():
         list.append(line)
     return list
 
 
 def compare():
-    # queries = os.listdir("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries")
+    # queries = os.listdir("dumps/queries")
     queries = ['apple']
     print("QUERY,algolia-recall-length,es-recall-length,levenstein-distance,kendalltau,recall-similarity,recall-similarity %,recall-absent")
     for query in queries:
         get_dashservice_response(query)
         get_es_response(query)
-        dash_file = "/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/algolia.txt"
-        es_file = "/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/es.txt"
+        dash_file = "dumps/queries/" + query + "/algolia.txt"
+        es_file = "dumps/queries/" + query + "/es.txt"
 
         # FILE reading
         # build es list
