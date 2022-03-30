@@ -3,6 +3,7 @@ import json
 import requests
 from scipy.stats import kendalltau
 
+import config
 import item_sku_dump
 from rule_to_template_data import get_es_request_for_query
 
@@ -31,7 +32,7 @@ def levenshtein(a, b):
 
 def get_dashservice_response(query):
     url = "http://localhost:8080/api/dash/search/menu"
-    payload = "{\n    \"storeId\": \"73903\",\n    \"query\": \""+query+"\",\n    \"userId\" : \"123\",\n    \"cityId\" : 1,\n    \"searchSource\": \"ALGOLIA\"\n}"
+    payload = "{\n    \"storeId\": \"" + config.STORE_ID + "\",\n    \"query\": \"" + query + "\",\n    \"userId\" : \"123\",\n    \"cityId\" : 1,\n    \"searchSource\": \"ALGOLIA\"\n}"
     headers = {
         'Content-Type': 'application/json',
         'swuid': 'raghu_swuid',
@@ -105,4 +106,5 @@ def compare():
         print(query + ", " + str(len(algolia_list)) + ", " + str(len(es_list)) + ", " + str(levenshtein(algolia_list, es_list)) + ", " + str(corr) + ", " + str(len(recall_similar_list)) + ", " + str(len(recall_similar_list) * 100 / len(algolia_list)) + ", " + str("|".join(str(x.strip()) for x in recall_absent_list)))
 
 
-compare()
+if __name__ == '__main__':
+    compare()

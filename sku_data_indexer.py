@@ -2,9 +2,10 @@ import json
 
 import requests
 
+import config
+
 base_es_host = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com"
-index_name = "sku_data_instamart_store_788741"
-url = "%s/%s" % (base_es_host, index_name)
+url = "%s/%s" % (base_es_host, config.INDEX_NAME)
 bulk_write_url = url + "/_bulk"
 batch_size = 250
 
@@ -47,9 +48,9 @@ def create_index():
         print("index creation response" + response.text)
 
 def index_data():
-    write_dict = {'create': {'_id': '0', '_index': index_name, 'retry_on_conflict': 2}}
+    write_dict = {'create': {'_id': '0', '_index': config.INDEX_NAME, 'retry_on_conflict': 2}}
     request_body = ""
-    with open("dumps/instamart_store_788741.json", 'r') as data:
+    with open("dumps/instamart_store_%s.json" % config.STORE_ID, 'r') as data:
         data_json = list(json.load(data))
         for i in range(0, len(data_json), batch_size):
             chunk = data_json[i:i + batch_size]

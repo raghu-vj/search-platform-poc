@@ -18,7 +18,7 @@ def println(list):
 if __name__ == '__main__':
     file = open("generated/algolia_replace_rule_alternate_spellings.txt", "a")
     lines = read_from_file("data/algolia_replace_rules.txt").split("\n")
-    print "Error rules: "
+    print("Error rules: ")
     for line in lines:
         try:
             rule_json = json.loads(line)
