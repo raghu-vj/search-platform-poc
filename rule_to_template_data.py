@@ -91,7 +91,7 @@ def get_templatised_rule_data(query):
                     return convert_rule_to_template(anchoring,consequence)
             line_count += 1
                 # print(' anchoring: {} , consequence  {} '.format(anchoring,consequence))
-        print('Processed {} lines.'.format(line_count))
+        # print('Processed {} lines.'.format(line_count))
         return []
 
 
