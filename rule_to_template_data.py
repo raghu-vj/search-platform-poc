@@ -1,7 +1,6 @@
+import requests, json
 import csv
-import json
 import re
-
 
 def convert_rule_to_template(anchor,consequence):
         # print consequence['params']['optionalFilters']
@@ -30,10 +29,6 @@ def convert_rule_to_template(anchor,consequence):
         # final_data = {}
         # final_data['should'] = final_list
         return final_list
-#         final_data_json = json.dumps(final_list)
-#         print('final list for multi_match rule conversion')
-#         print(final_data_json)
-#         return final_data_json
 
 
 
@@ -78,24 +73,25 @@ def get_templatised_rule_data(query):
         line_count = 0
         for row in csv_reader:
             if line_count == 0:
-                # print('Column names are:{}, {}'.format(row[4], row[5]))
-                pass
+                line_count += 1
+                continue
             else:
                 anchoring = row[4]
-                pattern = row[5]
-                # print('anchoring: {} , pattern: {} and query: {}'.format(anchoring,pattern,query))
-                if (row[1] == 'TRUE' and ((anchoring == 'is' and pattern == query) or (anchoring == 'contains' and query.find(pattern) != -1 ))):
+                pattern = str(row[5])
+#                 print('anchoring: {} , pattern: {} and query: {}'.format(anchoring,pattern,query))
+                if (row[1] == 'TRUE' and ((anchoring == 'is' and pattern.strip().lower() == query) or (anchoring == 'contains' and query.find(pattern.strip().lower()) != -1 ))):
                     consequence_json = row[8]
-                    # print(consequence_json)
+#                     print consequence_json
                     consequence = json.loads(consequence_json)
                     return convert_rule_to_template(anchoring,consequence)
             line_count += 1
-                # print(' anchoring: {} , consequence  {} '.format(anchoring,consequence))
-        # print('Processed {} lines.'.format(line_count))
+#             print(' anchoring: {} , consequence  {} '.format(anchoring,consequence))
+#         print('Processed {} lines.'.format(line_count))
         return []
 
 
 def get_es_request_for_query(query):
+    query = str(query).strip().lower()
     data = {}
     data['id'] = 'sku_insta_search_v0'
 
@@ -108,8 +104,3 @@ def get_es_request_for_query(query):
 
     data['params'] = params
     return json.dumps(data)
-
-
-
-
-
