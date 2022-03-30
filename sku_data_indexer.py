@@ -2,7 +2,12 @@ import json
 
 import requests
 
-url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v6"
+base_es_host = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com"
+index_name = "sku_data_instamart_store_788741"
+url = "%s/%s" % (base_es_host, index_name)
+bulk_write_url = url + "/_bulk"
+batch_size = 250
+
 headers = {
     'User-Agent': '-t',
     'Content-Type': 'application/json'
@@ -34,11 +39,30 @@ def get_indexable_doc(obj):
     doc['spin'] = obj['spin']
     return doc
 
+def create_index():
+    delete_res = requests.request("DELETE", url, headers=headers)
+    print("Deleting existing index, response: " + delete_res.text)
+    with open("es_index/settings_mappings_v0.json", 'r') as data:
+        response = requests.request("PUT", url, headers=headers, data=data)
+        print("index creation response" + response.text)
 
-with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/instamart_store_73903.json", 'r') as data:
-    data_json = json.load(data)
-    for obj in data_json:
-        doc = get_indexable_doc(obj)
-        print(doc)
-        response = requests.request("POST", url + "/_doc/" + obj['id'], headers=headers, data=json.dumps(doc))
-        print(response.status_code)
+def index_data():
+    write_dict = {'create': {'_id': '0', '_index': index_name, 'retry_on_conflict': 2}}
+    request_body = ""
+    with open("dumps/instamart_store_788741.json", 'r') as data:
+        data_json = list(json.load(data))
+        for i in range(0, len(data_json), batch_size):
+            chunk = data_json[i:i + batch_size]
+            for obj in chunk:
+                write_dict['create']['_id'] = obj['id']
+                request_body = request_body + json.dumps(write_dict) + "\n"
+                request_body = request_body + json.dumps(obj) + "\n"
+            print(request_body)
+            response = requests.request("POST", bulk_write_url, headers=headers, data=request_body)
+            print(response.status_code)
+
+
+if __name__ == "__main__":
+    create_index()
+    index_data()
+

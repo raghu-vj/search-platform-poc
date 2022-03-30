@@ -1,9 +1,13 @@
 import json
-import os
-import item_sku_dump
+
 import requests
 from scipy.stats import kendalltau
+
+import item_sku_dump
 from rule_to_template_data import get_es_request_for_query
+
+INDEX_NAME = "sku_data_instamart_store_788741"
+
 
 def levenshtein(a, b):
     "Calculates the Levenshtein distance between a and b."
@@ -45,19 +49,17 @@ def get_dashservice_response(query):
 
 
 def get_es_response(query):
-#     with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/es_query_test.json", "r") as f:
-        url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/sku_data_v6/_search"
+        url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/%s/_search" % INDEX_NAME
         headers = {
             'Content-Type': 'application/json'
         }
-#         es_query = f.read().replace("$query$", query)
         es_query = get_es_request_for_query(query)
         response = requests.request("POST", url, headers=headers, data=es_query)
         json_data = json.loads(response.text)
         final_names_list = []
         for hit in json_data['hits']['hits']:
             final_names_list.append(hit['_source']['attributes']['product_name'])
-        with open("/Users/raghunandan.j/PycharmProjects/scripts/item_sku/dumps/queries/" + query + "/es.txt", "w") as f:
+        with open("item_sku/dumps/queries/" + query + "/es.txt", "w") as f:
             for name in final_names_list:
                 f.write("%s\n" % name)
         return final_names_list
