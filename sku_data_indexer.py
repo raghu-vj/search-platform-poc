@@ -4,8 +4,7 @@ import requests
 
 import config
 
-base_es_host = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com"
-url = "%s/%s" % (base_es_host, config.INDEX_NAME)
+url = "%s/%s" % (config.BASE_ES_HOST, config.INDEX_NAME)
 bulk_write_url = url + "/_bulk"
 batch_size = 250
 

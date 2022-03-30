@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 from scipy.stats import kendalltau
@@ -6,9 +7,6 @@ from scipy.stats import kendalltau
 import config
 import item_sku_dump
 from rule_to_template_data import get_es_request_for_query
-
-INDEX_NAME = "sku_data_instamart_store_788741"
-
 
 def levenshtein(a, b):
     "Calculates the Levenshtein distance between a and b."
@@ -50,7 +48,7 @@ def get_dashservice_response(query):
 
 
 def get_es_response(query):
-        url = "https://search-search-perf-public-sfhpf2qga7guxicrs322krkrl4.ap-southeast-1.es.amazonaws.com/%s/_search" % INDEX_NAME
+        url = "%s/%s/_search" % (config.BASE_ES_HOST, config.INDEX_NAME)
         headers = {
             'Content-Type': 'application/json'
         }
@@ -58,11 +56,12 @@ def get_es_response(query):
         response = requests.request("POST", url, headers=headers, data=es_query)
         json_data = json.loads(response.text)
         final_names_list = []
-        for hit in json_data['hits']['hits']:
-            final_names_list.append(hit['_source']['attributes']['product_name'])
-        with open("item_sku/dumps/queries/" + query + "/es.txt", "w") as f:
-            for name in final_names_list:
-                f.write("%s\n" % name)
+        if 'hits' in json_data and 'hits' in json_data['hits']:
+            for hit in json_data['hits']['hits']:
+                final_names_list.append(hit['_source']['attributes']['product_name'])
+            with open("item_sku/dumps/queries/" + query + "/es.txt", "w") as f:
+                for name in final_names_list:
+                    f.write("%s\n" % name)
         return final_names_list
 
 
@@ -75,8 +74,8 @@ def read_from_dumped_file(query):
 
 
 def compare():
-    # queries = os.listdir("dumps/queries")
-    queries = ['apple']
+    queries = os.listdir("dumps/queries")
+    # queries = ['apple']
     print("QUERY,algolia-recall-length,es-recall-length,levenstein-distance,kendalltau,recall-similarity,recall-similarity %,recall-absent")
     for query in queries:
         get_dashservice_response(query)
