@@ -1,5 +1,6 @@
 import json
 from algoliasearch.search_client import SearchClient
+import config
 
 client = SearchClient.create('YTD9R9DRZL', '30a63e134c9f98def99e299a73e5a2c5')
 index = client.init_index('sku_data')
@@ -26,7 +27,7 @@ def get_product_name_from_id_list(idList):
     return final_map
 
 def get_product_name_from_id(id):
-    filter_query = "store_id:788741 AND attributes.product_id:" + id
+    filter_query = "store_id:%s AND attributes.product_id:" % (config.STORE_ID) + id
     algolia_result = index.browse_objects({'filters': filter_query})
     for hit in algolia_result:
         return hit
