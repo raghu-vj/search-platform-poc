@@ -17,10 +17,12 @@ def convert_rule_to_template(anchor,consequence):
             match_field_value = consequence_reg.group(2)
             score = consequence_reg.group(3)
 
+            normalised_score = ((float)(score)/100.0) + 1.0
+
             if(match_field.find(".") == -1):
-                final_list.append(get_key_word_type_query_json(match_field,match_field_value,score))
+                final_list.append(get_key_word_type_query_json(match_field,match_field_value,normalised_score))
             else:
-                final_list.append(get_nested_type_query_json(match_field,match_field_value,score))
+                final_list.append(get_nested_type_query_json(match_field,match_field_value,normalised_score))
 
 
             # json_data = json.dumps(data)
