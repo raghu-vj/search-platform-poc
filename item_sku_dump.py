@@ -33,5 +33,14 @@ def get_product_name_from_id(id):
         return hit
 
 
+def dump_synonyms():
+    json_list = []
+    for synonym in index.browse_synonyms():
+        load = json.loads(json.dumps(synonym))
+        json_list.append(load)
+    print(json.dumps(json_list))
+
+
 if __name__ == "__main__":
     hit_algolia_and_dump_file()
+    # dump_synonyms()
