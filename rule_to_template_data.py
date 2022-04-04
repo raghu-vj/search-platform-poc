@@ -2,6 +2,9 @@ import requests, json
 import csv
 import re
 
+import config
+
+
 def convert_rule_to_template(anchor,consequence):
         # print consequence['params']['optionalFilters']
         final_list = []
@@ -95,14 +98,11 @@ def get_templatised_rule_data(query):
 def get_es_request_for_query(query):
     query = str(query).strip().lower()
     data = {}
-    data['id'] = 'sku_insta_search_v0'
-
+    data['id'] = config.ES_TEMPLATE_NAME
     params = {}
     params['query'] = query
-
     template_converted_rule_list = get_templatised_rule_data(query)
     if len(template_converted_rule_list) > 0:
         params['rules'] = template_converted_rule_list
-
     data['params'] = params
     return json.dumps(data)
