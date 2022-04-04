@@ -6,7 +6,7 @@ import config
 
 url = "%s/%s" % (config.BASE_ES_HOST, config.INDEX_NAME)
 bulk_write_url = url + "/_bulk"
-batch_size = 250
+batch_size = 800
 
 headers = {
     'User-Agent': '-t',
@@ -43,7 +43,8 @@ def create_index():
     delete_res = requests.request("DELETE", url, headers=headers)
     print("Deleting existing index, response: " + delete_res.text)
     with open("es_index/settings_mappings_v0.json", 'r') as data:
-        response = requests.request("PUT", url, headers=headers, data=data)
+        print(data.read())
+        response = requests.request("PUT", url, headers=headers, data=data.read())
         print("index creation response" + response.text)
 
 def index_data():
@@ -56,13 +57,13 @@ def index_data():
             for obj in chunk:
                 write_dict['create']['_id'] = obj['id']
                 request_body = request_body + json.dumps(write_dict) + "\n"
-                request_body = request_body + json.dumps(obj) + "\n"
+                request_body = request_body + json.dumps(get_indexable_doc(obj)) + "\n"
             print(request_body)
             response = requests.request("POST", bulk_write_url, headers=headers, data=request_body)
             print(response.status_code)
 
 
 if __name__ == "__main__":
-    create_index()
+    # create_index()
     index_data()
 

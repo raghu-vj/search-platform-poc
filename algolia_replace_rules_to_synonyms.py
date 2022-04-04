@@ -26,7 +26,7 @@ if __name__ == '__main__':
             for edit in rule_json['params']['query']['edits']:
                 alternate_spellings.add(edit['delete'])
                 alternate_spellings.add(edit['insert'])
-            append_to_file(file, ','.join(alternate_spellings))
+            append_to_file(file, "\"" + ','.join(alternate_spellings).lower() + "\"" + ",")
         except:
             print(line)
     file.close()
