@@ -95,13 +95,32 @@ def get_templatised_rule_data(query):
         return []
 
 
+def get_alternate_words_for_query(query):
+    with open('data/alternate_words.csv') as csv_file:
+         csv_reader = csv.reader(csv_file, delimiter=',')
+         line_count = 0
+         final_list = [query]
+         for row in csv_reader:
+            if query in row:
+                row.remove(query)
+                final_list = final_list + row
+                break
+         return final_list
+
+
+
 def get_es_request_for_query(query):
     query = str(query).strip().lower()
     data = {}
     data['id'] = config.ES_TEMPLATE_NAME
     params = {}
     params['query'] = query
-    template_converted_rule_list = get_templatised_rule_data(query)
+    alternate_queries = get_alternate_words_for_query(query)
+#     print(alternate_queries)
+    for q in alternate_queries:
+        template_converted_rule_list = get_templatised_rule_data(q)
+        if(len(template_converted_rule_list) > 0):
+            break
     if len(template_converted_rule_list) > 0:
         params['rules'] = template_converted_rule_list
     data['params'] = params
