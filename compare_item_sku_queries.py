@@ -95,7 +95,7 @@ def read_from_dumped_file(query):
 
 def compare():
     queries = os.listdir("dumps/queries")
-    queries = ['sweet']
+    # queries = ['sweets']
     print("QUERY\talgolia-recall-length\tes-recall-length\tlevenstein-distance\tkendalltau\trecall-similarity\trecall-similarity %\trecall-absent")
     for query in queries:
         get_dashservice_response(query)
