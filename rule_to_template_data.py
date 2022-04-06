@@ -96,7 +96,7 @@ def get_templatised_rule_data(query):
 
 
 def get_alternate_words_for_query(query):
-    with open('data/alternate_words.csv') as csv_file:
+    with open('es_index/alternate_spellings.txt') as csv_file:
          csv_reader = csv.reader(csv_file, delimiter=',')
          line_count = 0
          final_list = [query]

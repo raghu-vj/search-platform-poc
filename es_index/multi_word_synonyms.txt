@@ -173,7 +173,7 @@ chota aloo,baby potato
 choulai,amaranthus
 chow chow,chayote
 chowli,black-eyed beans,lobia
-chowmein,noodles,noodle
+noodles,noodle,chowmein
 chuara,dates
 chukandar,beetroot
 chukander,beetroot
