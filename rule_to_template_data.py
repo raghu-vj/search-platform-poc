@@ -84,7 +84,7 @@ def get_templatised_rule_data(query):
                 anchoring = row[4]
                 pattern = str(row[5])
 #                 print('anchoring: {} , pattern: {} and query: {}'.format(anchoring,pattern,query))
-                if (row[1] == 'TRUE' and ((anchoring == 'is' and pattern.strip().lower() == query) or (anchoring == 'contains' and query.find(pattern.strip().lower()) != -1 ))):
+                if (is_rule_condition_satisfied(query,pattern,anchoring,row[1]) == True):
                     consequence_json = row[8]
 #                     print consequence_json
                     consequence = json.loads(consequence_json)
@@ -94,6 +94,48 @@ def get_templatised_rule_data(query):
 #         print('Processed {} lines.'.format(line_count))
         return []
 
+
+def is_rule_condition_satisfied(query,pattern,anchoring,active):
+    if(active != 'TRUE'):
+        return False
+
+    if(is_edit_distance_one_or_less(pattern.strip().lower(),query) and len(query) > 3):
+        return True
+
+    if(anchoring == 'contains' and query.find(pattern.strip().lower()) != -1 ) and len(query) - len(pattern) <= 2 :
+        return True
+    return False
+
+
+def is_edit_distance_one_or_less(s1, s2):
+    m = len(s1)
+    n = len(s2)
+    if(s1 == s2):
+        return True
+    if abs(m - n) > 1:
+        return False
+    count = 0
+    i = 0
+    j = 0
+    while i < m and j < n:
+        if s1[i] != s2[j]:
+            if count == 1:
+                return False
+            if m > n:
+                i+=1
+            elif m < n:
+                j+=1
+            else:
+                i+=1
+                j+=1
+            count+=1
+        else:
+            i+=1
+            j+=1
+    if i < m or j < n:
+        count+=1
+
+    return count == 1
 
 def get_alternate_words_for_query(query):
     with open('es_index/alternate_spellings.txt') as csv_file:

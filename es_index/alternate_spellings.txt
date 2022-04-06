@@ -544,7 +544,7 @@ paw,pav
 pazham,banana
 peanut butter,peanutbutter
 peanut,peanuts,groundnut,ground nuts,ground nut,groundnuts,moongfali,moong fali,verusenaga,pallilu,verkadalai,shengdana ,mungfali,kadalekayi,china badam
-peas,matar
+peas,matar,pea
 pedal bin,garbage bin,waste bin,waste basket,dust bin,dustbin
 petha hara,ash gourd,booda gumbala,boodagumbala
 petha,ash gourd
@@ -732,4 +732,4 @@ yeley kosu,cabbage
 yellow daal,moong daal,toor daal
 yog,you
 ziplock,ziplo
-sweet,sweets
+sweet,sweets,mithai
