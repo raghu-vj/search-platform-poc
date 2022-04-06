@@ -109,6 +109,7 @@ black gram,urad
 black-eyed beans,lobia,chowli
 bleach,bleaching
 blue lays,magic masala chips
+lay,lays
 bobbarlu,white lobia
 body wash,bodywash
 boiled rice,ponni puzungal arisi
