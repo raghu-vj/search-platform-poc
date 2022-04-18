@@ -104,7 +104,6 @@ def get_alternate_words_for_query(query):
             if query in row:
                 row.remove(query)
                 final_list = final_list + row
-                break
          return final_list
 
 

@@ -6,7 +6,7 @@ import config
 
 url = "%s/%s" % (config.BASE_ES_HOST, config.INDEX_NAME)
 bulk_write_url = url + "/_bulk"
-batch_size = 800
+batch_size = 1000
 
 headers = {
     'User-Agent': '-t',
@@ -30,11 +30,15 @@ def get_indexable_doc(obj):
     attrs['sub_category/L3'] = obj['attributes'].get('sub-category/L3', None)
     attrs['category/I2'] = obj['attributes'].get('category/l2', None)
     attrs['category/L2'] = obj['attributes'].get('category/L2', None)
-    attrs['super_category/L1'] = obj['attributes'].get('super_category/L1', None)
-    attrs['super_category/I1'] = obj['attributes'].get('super category/l1', None)
+    super_cat = obj['attributes'].get('super_category/L1', None)
+    if super_cat is None:
+        super_cat = obj['attributes'].get('super_category/l1', None)
+    print("super cat" + str(super_cat))
+    attrs['super_category/L1'] = super_cat
     attrs['sub_category/I1'] = obj['attributes'].get('sub-category/l1', None)
     attrs['pack_type'] = obj['attributes'].get('pack_type', None)
     attrs['form_factor'] = obj['attributes'].get('form_factor', None)
+    attrs['search_keyword'] = obj['attributes'].get('search_keyword', None)
     doc['attributes'] = attrs
     doc['spin'] = obj['spin']
     return doc
@@ -49,20 +53,22 @@ def create_index():
     multiword_synonyms = []
     for line in open("es_index/multi_word_synonyms.txt", "r").readlines():
         multiword_synonyms.append(line.strip())
-    with open("es_index/settings_mappings_v0.json", 'r') as data:
+    with open("es_index/settings_mappings_v1.json", 'r') as data:
         read = data.read()
         print(read)
         json_data = json.loads(read)
         json_data['settings']['index']['analysis']['filter']['alternate_spelling_filter']['synonyms'] = alternate_spellings
-        json_data['settings']['index']['analysis']['filter']['typo_filter'][
-            'synonyms'] = alternate_spellings
-        json_data['settings']['index']['analysis']['filter']['synonym_filter'][
-            'synonyms'] = multiword_synonyms
+        # json_data['settings']['index']['analysis']['filter']['typo_filter'][
+        #     'synonyms'] = alternate_spellings
+        # json_data['settings']['index']['analysis']['filter']['synonym_filter'][
+        #     'synonyms'] = multiword_synonyms
         json_data['settings']['index']['analysis']['filter']['graph_synonyms'][
             'synonyms'] = multiword_synonyms
         json_data_str = json.dumps(json_data)
-        print(json_data_str)
         response = requests.request("PUT", url, headers=headers, data=json_data_str)
+        if response.status_code != 200:
+            print(response.text)
+            raise Exception("Indexing failed")
         print("index creation response" + response.text)
 
 def index_data():
@@ -78,7 +84,7 @@ def index_data():
                 request_body = request_body + json.dumps(get_indexable_doc(obj)) + "\n"
             print(request_body)
             response = requests.request("POST", bulk_write_url, headers=headers, data=request_body)
-            print(response.status_code)
+            print("Response code: " + str(response.status_code))
 
 
 if __name__ == "__main__":

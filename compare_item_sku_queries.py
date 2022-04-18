@@ -1,5 +1,6 @@
 import json
 import os
+from multiprocessing import Process
 
 import requests
 from paramiko.client import SSHClient
@@ -94,35 +95,52 @@ def read_from_dumped_file(query):
 
 
 def compare():
-    queries = os.listdir("dumps/queries")
-    # queries = ['sweets']
+    queries = open("data/low_recall_queries.txt", "r").read().split("\n")
+    # queries = ['dai']
     print("QUERY\talgolia-recall-length\tes-recall-length\tlevenstein-distance\tkendalltau\trecall-similarity\trecall-similarity %\trecall-absent")
+    no_of_queries = len(queries)
+    print_es_query = no_of_queries == 1
+    processes = list()
+
     for query in queries:
-        get_dashservice_response(query)
-        get_es_response(query, len(queries) == 1)
-        dash_file = "dumps/queries/" + query + "/algolia.txt"
-        es_file = "dumps/queries/" + query + "/es.txt"
+        p = Process(compare_given_query(query, print_es_query))
+        p.start()
+        processes.append(p)
 
-        # FILE reading
-        # build es list
-        es_list = []
-        es_file_obj = open(es_file, "r")
-        for line in es_file_obj.readlines():
-            es_list.append(line)
+    for pro in processes:
+        pro.join()
 
-        # FILE reading
-        # build algolia list
-        algolia_list = []
-        algolia_file_obj = open(dash_file, "r")
-        for line in algolia_file_obj.readlines():
-            algolia_list.append(line)
-
-        # recall_similar_list = set(algolia_list) & set(es_list)
-        recall_similar_list = [x for x in algolia_list if x in es_list]
-        # os.system("diff -y " + dash_file + " " + es_file)
-        recall_absent_list = [x for x in algolia_list if x not in es_list]
-        corr, _ = kendalltau(algolia_list[:len(recall_similar_list)], recall_similar_list)
-        print(query + SEPARATOR + str(len(algolia_list)) + SEPARATOR + str(len(es_list)) + SEPARATOR + str(levenshtein(algolia_list, es_list)) + SEPARATOR + str(corr) + SEPARATOR + str(len(recall_similar_list)) + SEPARATOR + str(len(recall_similar_list) * 100 / len(algolia_list)) + SEPARATOR + str("|".join(str(x.strip()) for x in recall_absent_list)))
+def compare_given_query(query, print_es_query):
+    folder = "dumps/queries/" + query
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+    # get responses
+    get_dashservice_response(query)
+    get_es_response(query, print_es_query)
+    dash_file = folder + "/algolia.txt"
+    es_file = folder + "/es.txt"
+    # FILE reading
+    # build es list
+    es_list = []
+    es_file_obj = open(es_file, "r")
+    for line in es_file_obj.readlines():
+        es_list.append(line)
+    # FILE reading
+    # build algolia list
+    algolia_list = []
+    algolia_file_obj = open(dash_file, "r")
+    for line in algolia_file_obj.readlines():
+        algolia_list.append(line)
+    # recall_similar_list = set(algolia_list) & set(es_list)
+    recall_similar_list = [x for x in algolia_list if x in es_list]
+    # os.system("diff -y " + dash_file + " " + es_file)
+    recall_absent_list = [x for x in algolia_list if x not in es_list]
+    corr, _ = kendalltau(algolia_list[:len(recall_similar_list)], recall_similar_list)
+    print(query + SEPARATOR + str(len(algolia_list)) + SEPARATOR + str(len(es_list)) + SEPARATOR + str(
+        levenshtein(algolia_list, es_list)) + SEPARATOR + str(corr) + SEPARATOR + str(
+        len(recall_similar_list)) + SEPARATOR + str(
+        len(recall_similar_list) * 100 / len(algolia_list)) + SEPARATOR + str(
+        "|".join(str(x.strip()) for x in recall_absent_list)))
 
 
 if __name__ == '__main__':
