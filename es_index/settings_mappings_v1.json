@@ -1,0 +1,575 @@
+{
+  "mappings": {
+    "properties": {
+      "attributes": {
+        "type": "nested",
+        "properties": {
+          "brand": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "category/I2": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "category/L2": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "form_factor": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "model_name": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "pack_type": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "product_name": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "sub_category/I1": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "sub_category/L3": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "super_category/L1": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "type": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          },
+          "search_keyword": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          }
+        }
+      },
+      "category": {
+        "type": "nested",
+        "properties": {
+          "description": {
+            "type": "text"
+          },
+          "id": {
+            "type": "keyword"
+          },
+          "name": {
+            "type": "text",
+            "fields": {
+              "exhaustive": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "exhaustive_analyzer"
+              },
+              "partial": {
+                "type": "text",
+                "analyzer": "partial_analyzer",
+                "search_analyzer": "partial_analyzer"
+              },
+              "processed": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "processed_analyzer"
+              },
+              "synonym": {
+                "type": "text",
+                "analyzer": "standard",
+                "search_analyzer": "synonym_search_analyzer"
+              },
+              "alternates": {
+                "type": "text",
+                "analyzer": "graph_synonym_analyzer",
+                "search_analyzer": "graph_synonym_analyzer"
+              }
+            }
+          }
+        }
+      },
+      "spin": {
+        "type": "keyword"
+      }
+    }
+  },
+  "settings": {
+    "index": {
+      "number_of_shards": "5",
+      "blocks": {
+        "read_only_allow_delete": "false",
+        "write": "false"
+      },
+      "analysis": {
+        "filter": {
+          "alternate_spelling_filter": {
+            "type": "synonym_graph",
+            "synonyms": [
+              "blah=>bla"
+            ]
+          },
+          "typo_filter": {
+            "type": "synonym",
+            "synonyms": [
+              "blah=>bla"
+            ]
+          },
+          "custom_stem_override": {
+            "type": "stemmer_override",
+            "rules": [
+              "chocolates => chocolate"
+            ]
+          },
+          "custom_stemmer": {
+            "name": "minimal_english",
+            "type": "stemmer"
+          },
+          "synonym_filter": {
+            "type": "synonym",
+            "synonyms": [
+              "blah=>bla"
+            ]
+          },
+          "graph_synonyms": {
+            "type": "synonym_graph",
+            "synonyms": [
+              "blah,bla"
+            ]
+          },
+          "custom_token_length": {
+            "type": "length",
+            "min": "2"
+          },
+          "custom_edge_ngram_min_1": {
+            "type": "edge_ngram",
+            "min_gram": "1",
+            "max_gram": "60"
+          },
+          "custom_edge_ngram_min_2": {
+            "type": "edge_ngram",
+            "min_gram": "2",
+            "max_gram": "60"
+          },
+          "stopword_filter": {
+            "type": "stop",
+            "stopwords": "_english_"
+          },
+          "custom_unique": {
+            "type": "unique",
+            "only_on_same_position": "true"
+          }
+        },
+        "analyzer": {
+          "raw_analyzer": {
+            "filter": "lowercase,asciifolding",
+            "type": "custom",
+            "tokenizer": "keyword"
+          },
+          "spell_correction_analyzer": {
+            "filter": [
+              "asciifolding",
+              "lowercase",
+              "unique"
+            ],
+            "type": "custom",
+            "tokenizer": "whitespace"
+          },
+          "stopword_index_analyzer": {
+            "filter": "asciifolding,lowercase,custom_stem_override,custom_stemmer,custom_unique,custom_token_length,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "standard"
+          },
+          "search_query_analyzer": {
+            "filter": "lowercase,asciifolding,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "standard"
+          },
+          "index_analyzer_chain": {
+            "filter": "asciifolding,lowercase,custom_unique,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "whitespace"
+          },
+          "tag_analyzer": {
+            "filter": "lowercase,asciifolding,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "keyword"
+          },
+          "synonym_index_analyzer": {
+            "filter": "asciifolding,lowercase,custom_stem_override,custom_stemmer,custom_unique,custom_token_length,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "whitespace"
+          },
+          "synonym_search_analyzer": {
+            "filter": "asciifolding,lowercase,custom_stem_override,custom_stemmer,custom_unique,custom_token_length,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "whitespace"
+          },
+          "synonym_analyzer": {
+            "filter": "lowercase,asciifolding,alternate_spelling_filter,synonym_filter",
+            "tokenizer": "standard"
+          },
+          "search_query_analyzer_chain": {
+            "filter": "asciifolding,lowercase,custom_unique,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "whitespace"
+          },
+          "partial_analyzer": {
+            "filter": "lowercase,asciifolding,custom_edge_ngram_min_2",
+            "type": "custom",
+            "tokenizer": "whitespace"
+          },
+          "processed_analyzer": {
+            "filter": "asciifolding,lowercase,custom_stem_override,custom_unique,custom_token_length",
+            "type": "custom",
+            "tokenizer": "whitespace"
+          },
+          "graph_synonym_analyzer": {
+            "filter": "lowercase,asciifolding,graph_synonyms",
+            "type": "custom",
+            "tokenizer": "keyword"
+          },
+          "typo_analyzer": {
+            "filter": "lowercase,asciifolding,typo_filter,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "standard"
+          },
+          "index_edge_ngram_analyzer": {
+            "filter": "lowercase,asciifolding,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "standard"
+          },
+          "exhaustive_analyzer": {
+            "filter": "asciifolding,lowercase,custom_stem_override,custom_unique,custom_token_length,alternate_spelling_filter",
+            "type": "custom",
+            "tokenizer": "whitespace"
+          },
+          "stopword_search_analyzer": {
+            "filter": "asciifolding,lowercase,custom_stem_override,custom_stemmer,custom_unique,custom_token_length,alternate_spelling_filter,stopword_filter",
+            "type": "custom",
+            "tokenizer": "standard"
+          }
+        }
+      },
+      "number_of_replicas": "1"
+    }
+  }
+}
