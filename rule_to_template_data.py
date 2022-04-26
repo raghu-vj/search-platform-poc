@@ -5,7 +5,7 @@ import re
 import config
 
 
-def convert_rule_to_template(anchor,consequence):
+def convert_rule_to_template(anchor, consequence, is_query_exact_matching_with_rule_queries):
         # print consequence['params']['optionalFilters']
         final_list = []
         for cons in consequence['params']['optionalFilters']:
@@ -20,7 +20,10 @@ def convert_rule_to_template(anchor,consequence):
             match_field_value = consequence_reg.group(2)
             score = consequence_reg.group(3)
 
-            normalised_score = ((float)(score)/100.0) + 1.0
+            if is_query_exact_matching_with_rule_queries:
+                normalised_score = ((float)(score) / 1.0)
+            else:
+                normalised_score = ((float)(score) / 1000.0)
 
             if(match_field.find(".") == -1):
                 final_list.append(get_key_word_type_query_json(match_field,match_field_value,normalised_score))
@@ -56,7 +59,7 @@ def get_nested_type_query_json(match_field,match_field_value,score):
         match = {}
         query = {}
         nested = {}
-        match[match_field + '.exahaustive'] = match_field_value
+        match[match_field + '.exhaustive'] = match_field_value
 
         query['match'] = match
 
@@ -76,6 +79,7 @@ def get_templatised_rule_data(query):
     with open('rules_v1.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
+        template_section = []
         for row in csv_reader:
             if line_count == 0:
                 line_count += 1
@@ -84,19 +88,75 @@ def get_templatised_rule_data(query):
                 anchoring = row[4]
                 pattern = str(row[5])
 #                 print('anchoring: {} , pattern: {} and query: {}'.format(anchoring,pattern,query))
-                if (row[1] == 'TRUE' and ((anchoring == 'is' and pattern.strip().lower() == query) or (anchoring == 'contains' and query.find(pattern.strip().lower()) != -1 ))):
+                is_rule_satisfied, is_query_exact_matching_with_rule_queries = is_rule_condition_satisfied(query, pattern, anchoring, row[1])
+                if is_rule_satisfied:
                     consequence_json = row[8]
 #                     print consequence_json
                     consequence = json.loads(consequence_json)
-                    return convert_rule_to_template(anchoring,consequence)
+                    template_section = convert_rule_to_template(anchoring, consequence,
+                                                        is_query_exact_matching_with_rule_queries)
+
+                if is_rule_satisfied and is_query_exact_matching_with_rule_queries:
+                    consequence_json = row[8]
+                    #                     print consequence_json
+                    consequence = json.loads(consequence_json)
+                    template_section = convert_rule_to_template(anchoring, consequence,
+                                                                is_query_exact_matching_with_rule_queries)
+                    return template_section
+
             line_count += 1
 #             print(' anchoring: {} , consequence  {} '.format(anchoring,consequence))
 #         print('Processed {} lines.'.format(line_count))
-        return []
+        return template_section
 
+
+def is_rule_condition_satisfied(query,pattern,anchoring,active):
+    if(active != 'TRUE'):
+        return False, False
+
+    is_one_edit_distance_true, is_same_str = is_edit_distance_one_or_less(pattern.strip().lower(), query)
+    if is_same_str and len(query) >= 3:
+        return True, True
+    if is_one_edit_distance_true and len(query) >= 3:
+        return True, False
+
+    if(anchoring == 'contains' and query.find(pattern.strip().lower()) != -1 ) and len(query) - len(pattern) <= 2:
+        return True, False
+    return False, False
+
+
+def is_edit_distance_one_or_less(s1, s2):
+    m = len(s1)
+    n = len(s2)
+    if(s1 == s2):
+        return True, True
+    if abs(m - n) > 1:
+        return False, False
+    count = 0
+    i = 0
+    j = 0
+    while i < m and j < n:
+        if s1[i] != s2[j]:
+            if count == 1:
+                return False, False
+            if m > n:
+                i+=1
+            elif m < n:
+                j+=1
+            else:
+                i+=1
+                j+=1
+            count+=1
+        else:
+            i+=1
+            j+=1
+    if i < m or j < n:
+        count+=1
+
+    return count == 1, False
 
 def get_alternate_words_for_query(query):
-    with open('data/alternate_words.csv') as csv_file:
+    with open('es_index/alternate_spellings.txt') as csv_file:
          csv_reader = csv.reader(csv_file, delimiter=',')
          line_count = 0
          final_list = [query]
