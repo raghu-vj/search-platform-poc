@@ -33,7 +33,6 @@ def get_indexable_doc(obj):
     super_cat = obj['attributes'].get('super_category/L1', None)
     if super_cat is None:
         super_cat = obj['attributes'].get('super_category/l1', None)
-    print("super cat" + str(super_cat))
     attrs['super_category/L1'] = super_cat
     attrs['sub_category/I1'] = obj['attributes'].get('sub-category/l1', None)
     attrs['pack_type'] = obj['attributes'].get('pack_type', None)
