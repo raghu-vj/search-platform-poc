@@ -464,9 +464,9 @@
             "min_gram": "1",
             "max_gram": "60"
           },
-          "custom_edge_ngram_min_2": {
+          "custom_edge_ngram_min_3": {
             "type": "edge_ngram",
-            "min_gram": "2",
+            "min_gram": "3",
             "max_gram": "60"
           },
           "stopword_filter": {
@@ -533,7 +533,7 @@
             "tokenizer": "whitespace"
           },
           "partial_analyzer": {
-            "filter": "lowercase,asciifolding,custom_edge_ngram_min_2",
+            "filter": "lowercase,asciifolding,custom_edge_ngram_min_3",
             "type": "custom",
             "tokenizer": "whitespace"
           },
