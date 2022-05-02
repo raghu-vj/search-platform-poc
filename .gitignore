@@ -3,3 +3,5 @@
 dumps/queries/**
 dumps/all_queries_top10.csv
 dumps/instamart_store_788741.json
+data/*.tsv
+data/*.numbers
