@@ -1,0 +1,166 @@
+Coca-Cola Diet Coke (Can),224.44421
+Coca-Cola (Bottle),173.56763
+Coca Cola (Bottle),173.30069
+Coca-Cola (Can),165.31389
+Coca Cola (Bottle),156.45467
+Coca-Cola Zero (Can),156.43398
+Coca-Cola Party Pack,148.00143
+Coca-Cola Can Combo,102.91143
+Coke Zero Can Combo,74.64423
+Coke No Sugar Combo,66.178604
+Coke n Dr Ice Combo,65.74708
+Coke n Schweppes Tonic Water Combo,61.806366
+Coke n Bingo Chilli Starter Combo,58.884953
+Campure Cone Freshener Original,0.8443301
+Campure Camphor Cone Freshener Sandalwood,0.8051942
+Mortein PowerGard Rat Kill Cake,0.7924253
+Campure Camphor Cone Freshener Lavender,0.7309903
+Baskin Robbins Cookies n Cream Cone,0.49817073
+Airwick Fresh Waters Air Freshener Gel,0.4590878
+Odonil Citrus Fresh Room Freshener Spray,0.4590878
+Dabur Odonil Mystic Air Freshener Rose,0.4590878
+Airwick Wild Berries Air Freshener Gel,0.4590878
+Odonil Air Freshner Blocks,0.4590878
+Mortein Smart Device + Refill Box,0.4590878
+Dabur Odonil One Touch Air Sanitizer Floral Bouquet Combo ,0.4590878
+Odonil Air Freshener Zipper Mix,0.4590878
+All Out Ultra Power+ Refill Mosquito Repellent Liquid,0.4590878
+Godrej Aer Lush Green Air Freshener Spray,0.4590878
+Campure Reg Repellent Incense Sticks,0.44810516
+Mortein Cockroach Killer With Target Nozzle 100% Kill Guarantee Natural Fragrance,0.44810516
+Good Knight Naturals Mosquito Repellent Refill,0.44810516
+Dabur Odonil Nature Jasmine Fantasy Gel Room Freshener,0.44810516
+Ambi Pur Car Air Freshener Refill Lavender Spa,0.44810516
+Mortein 2 in 1 Insect Killer,0.44810516
+Mortein Power Booster Coil 12 Hr,0.44810516
+HIT Flying Insect & Mosquito Killer Spray,0.44810516
+Mortein Insta Mosquito Repellent Refills, Buy 2, Get 1 Free (135 ml),0.44810516
+HIT Fresh Fragrance Cockroaches Killer Spray,0.44810516
+Good Knight After Bite Roll On For Mosquito And Insect Bites With 100% Natural Ingredients,0.44810516
+Airwick Freshmatic Life Scents,0.44810516
+Odonil Lavender Meadows Air Freshener,0.4472438
+Gk Flash Lavender Mosquito Repellent Refill,0.4472438
+Mortein Insta5 Mosquito Repellent,0.4472438
+Odomos Mosquito Repellent Cream,0.4472438
+HIT Anti Roach Gel,0.4472438
+Good Knight Gold Flash Mosquito Killer Machine (Machine + 3 Refills) - Combo Pack,0.4472438
+Ambi Pur Air Effect Air Freshener Lavender Bouquet,0.4472438
+Mortein Flying Insect Killer Mosquito & Fly Killer Spray Instant Kill Fresh Fragrance,0.4472438
+Godrej Aer Matic Fresh Lush Green Spray Refill,0.4472438
+Airwick Freshmatic Refill Life Scents Turquoise Oasis,0.4472438
+Britannia Cake Strawberry Muffills,0.44695026
+Winkies Swiss Roll Cream & Strawberry Cake,0.44695026
+Winkies English Tea Cake,0.44695026
+Prem Dulhan Mehandi Cone,0.43694964
+Papacream Vegan Chocofudgy Cake,0.43694964
+Winkies Sliced Marble Cake,0.43694964
+Baskin Robbins Bavarian Chocolate Ice Cream,0.43258572
+Baskin Robbins Bavarian Chocolate Cone Combo,0.43258572
+Arun Icecream Butterscotch Icone,0.43258572
+Cadbury Chocobakes Choc Layered Cake,0.42792237
+Britannia Fudge It Chocolate Brownie Cake,0.42792237
+Britannia Gobbles Fruity Fun Cake ,0.42792237
+Britannia Fudge It Chocolate Brownie Cake,0.42297143
+Bauli Vanilla Moonfils,0.42297143
+Freebie Cadbury Chocobakes Choc Layered 6 Pcs Cake,0.42297143
+Kwality Walls Cornetto Disc Oreo Combo,0.41097987
+Baskin Robbins Cookies n Cream Cone Combo,0.41097987
+Amul Ice Cream Tricone Chocolate,0.41097987
+Kwality Wall's Cornetto Double Chocolate,0.41097987
+HIT Lime Fresh Mosquito and Flies Spray,0.4026271
+All Out Bedtime Protection Mosquito Repellent Liquid,0.4026271
+Godrej Aer Twist Gel Musk After Smoke Car Freshener,0.4026271
+HIT Chalk Cockroach Killer,0.4026271
+Ambi Pur Air Effect Air Freshener Exotic Jasmine,0.4026271
+Hit Flying Insect & Cockroach Killer Spray Lime,0.4026271
+Hit Flying Insect & Mosquito Killer Spray Lime Fragrance,0.4026271
+Good Knight Gold Flash Machine + Refill Pack,0.4026271
+Godrej Aer Pocket Lavender Bloom Air Freshener,0.4026271
+Dabur Odonil Zipper Air Freshener Blissful Citrus,0.4026271
+Airwick Lemon Gel ,0.4026271
+Mortein Insta Mosquito Repellent Refills - Buy 4, Get 2 Free Pack (270 ml),0.4026271
+All Out Ultra Double Power Mosquito Repellent Refill,0.4026271
+All Out Ultra Power+ Slider Refill,0.4026271
+Godrej Aer Pocket Bathroom Fragrance,0.4026271
+Gainda Brand Naphthalene Balls,0.4026271
+TT Asafoetida Cake,0.3997162
+Ghadi Detergent Cake,0.3997162
+TT Asafoetida Cake,0.3997162
+Winkies Sliced Chocolate Cake,0.39797518
+Britannia Pineapple Plunge Cake ,0.39797518
+Britannia Choco Chill Cake ,0.39797518
+Winkies Rich Butter Fruit Cake,0.39797518
+Britannia Treat Croissant Vanilla Creme,0.39797518
+Nilgiris Orange Bar Cake,0.39708623
+Ambi Pur Car Air Freshener Refill Aqua Watery Citrus Freshness,0.3944501
+Terminator Ecofriendly Termite Killer Spray,0.3944501
+Odonil Jasmine Mist Air Freshener,0.3944501
+Airwick Nagpur Narangi Lemon & Orange Blossom Air Freshener Spray,0.3944501
+Ambi Pur Car Freshener Gel Relaxing Lavender,0.3944501
+Odomos Naturals Non Sticky Mosquito Repellent Cream,0.3944501
+Mamaearth Natural Mosquito Repellent Patches,0.3944501
+Airwick Hills of Munnar Air Freshener Spray for Home,0.3944501
+Good Knight Naturals Personal Repellent Fabric Roll On Mild Bloom,0.3944501
+Good Knight Activ Mosquito Repellent Refill Lavender,0.3944501
+HIT Anti Mosquito Racquet Rechargeable Bat,0.3944501
+Odonil Lavender Mist Room Spray,0.3944501
+Good Knight Advanced Maha Jumbo Mosquito Repellent Coil,0.3944501
+Godrej Aer Spray Cool Surf Blue Air Freshener,0.3944501
+Airwick Freshmatic Automatic Air Freshener Refill Rose & Saffron,0.3944501
+Odonil Nature Lavender Musk Room Freshening Gel,0.3944501
+Godrej Aer Twist Fresh Lush Green Car Air Freshener ,0.3944501
+Godrej Aer Morning Misty Meadows Room Spray,0.3944501
+Serapheena Keto Almond Flour Mug Cake Mix Dark Cocoa Cake,0.39314753
+Tt Asafoetida Cake,0.39085189
+Pillsbury Vanilla Oven Cake Mix,0.37732863
+Pillsbury Chocolate Cooker Cake Mix,0.37732863
+Shubhkart Nirmal Mogra Dry Cone Dhoop,0.37320077
+Betty Crocker  French Vanilla Cake Mix,0.37320077
+Shubhkart Nirmal Chandan Dry Cone Dhoop,0.37320077
+Arun Icecream Double Chocolate Icone,0.3727806
+Baskin Robbins Cotton Candy Cone : Combo,0.3727806
+Kwality Wall's Cornetto Disc Oreo,0.3727806
+Kwality Walls Cornetto Chokissimo Combo,0.3727806
+Baskin Robbins Cotton Candy Ice Cream,0.3727806
+Kwality Wall's Cornetto Butterscotch,0.3727806
+Kwality Walls Royal Kulfi Cornetto,0.3727806
+Fabelle Strawberry Cheese Cake Chocolate,0.36570776
+Orion Custas Premium Cup Cake,0.36570776
+Nilgiris Vanilla Bar Cake,0.36541772
+Nilgiris Chocolate Bar Cake,0.36541772
+Serapheena Keto Almond Flour Mug Cake Mix Vanilla Victoria Cake,0.36179048
+Serapheena Jowar & Sweet Potato Mug Cake Mix Cocoa Heaven Cake,0.36179048
+Britannia Cake Chocolate Muffills,0.36085513
+Britannia Gobbles Choco Chill Cake ,0.36085513
+Fresh Orange Cake With Pistachio,0.36085513
+Lotte Choco Pie Chocolate Cake ,0.36085513
+Winkies Cafe Select Cookie & Cake,0.36085513
+Winkies Raisin & Tutti Frutti Sliced Fruit Cake,0.36085513
+Cadbury Chocobakes Choc Layered Cakes,0.36085513
+Britannia Bar Cake Butter,0.36085513
+Winkies Lemon & Raspberry Sliced Marble Cake,0.36085513
+Winkies Swiss Roll Chocolate Cake,0.36085513
+Britannia Fruity Fun Cake ,0.36085513
+Papacream Vegan Chocofudgy Cake,0.3573911
+Serapheena Jowar & Sweet Potato Mug Cake Mix Vanilla Pound Cake,0.35394454
+Betty Crocker Mug Treat Brownie Mix,0.34078866
+Slurrp Farm Multigrain Coffee Cake Mix Eggless,0.34078866
+Nilgiris Eggless Tea Cake Banana & Walnut,0.3389253
+Betty Crocker Choco Fudge Cake Mix,0.3389253
+Nilgiris Eggless Tea Cake Marble,0.33654016
+Anand Sweets Fruit Cake rusk,0.32920766
+Slurrp Farm Multigrain Vanilla Cake Mix Eggless ,0.32607827
+Betty Crocker Mug Treat Brownie Mix,0.32607827
+Slurrp Farm Multi Grain Chocolate Cake Mix,0.32571295
+The Select Aisle  Round Aluminium Cake Mould,0.32571295
+Rolling Right Premium King Size Pre Rolled Cone,0.3256849
+Betty Crocker Pancake Mix Original,0.32142225
+Betty Crocker Triple Chocolate Brownie Mix,0.32142225
+Weikfield Eggless Cooker Chocolate Cake Mix,0.3051443
+Pillsbury Chocochip Pancake Mix Eggless,0.30272067
+Betty Crocker Mug Treat Chocolate Cake Mix,0.30272067
+Betty Crocker Mug Treat Chocolate Cake Mix,0.2843592
+Pillsbury Chocochip Pancake Mix Eggless,0.27396575
+Pillsbury Rich Choco Oven Cake Mix - Egg Free,0.27396575
+Banana Walnut Cake by Baker's Dozen (Contains Egg),0.2720443
+The Baker's Dozen Howzzat Combo Dark Chocolate Cookies And Fresh Orange Cake,0.24271053

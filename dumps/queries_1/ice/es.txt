@@ -1,0 +1,114 @@
+Amul Rajbhog Ice Cream,99.081215
+Amul Choco Chips Ice Cream,95.57766
+Amul Novelties Cassatta Ice Cream,93.18903
+Amul Chocolate Brownie Ice Cream ,93.18903
+Baskin Robbins Bavarian Chocolate Ice Cream,92.55171
+Amul King Alphonso Gold Ice Cream,92.55171
+Baskin Robbins Classic Vanilla Ice Cream,90.262024
+London Dairy Premium Vanilla Ice Cream ,90.262024
+Papacream Belgian Choco Chunk Ice Cream,90.262024
+Amul Ice Cream Vanilla Sandwich Combo,90.262024
+Baskin Robbins Premium Cotton Candy Ice Cream,89.908554
+NIC Alphonso Mango Ice Cream,88.95076
+Amul Vanilla Magic Ice Cream,88.95076
+NIC Alphonso Mango Ice Cream,88.95076
+Amul Ice Cream Tricone Chocolate,88.95076
+London Dairy Chocolate Brownie Delight Ice Cream,87.70556
+Haagen-Dazs Cookies & Cream Ice Cream,86.543846
+Haagen-Dazs Mango & Raspberry Ice Cream,86.543846
+Amul Chocolate Magic Sundae Ice Cream,86.18665
+London Dairy Cookies & Cream Ice Cream,86.18665
+NIC Chocochips Ice Cream,85.937485
+NIC Madagascar Chocolate Ice Cream,85.18465
+Papacream Ferro Crunch Ice Cream,85.18465
+Papacream Cookies & Cream Ice Cream,85.18465
+NIC Tender Coconut Ice Cream,85.18465
+NIC Roasted Almond Ice Cream,85.18465
+Amul Cookies N Cream Gold Ice Cream,84.10702
+NIC Chocochips Ice Cream Combo,83.02684
+Amul Sandwich Vanilla Ice Cream,83.02684
+Amul Butterscotch Bliss Ice Cream ,83.02684
+Haagen-Dazs Belgian Chocolate Ice Cream,82.91706
+GetAWhey Healthy Ice Creams Salted Caramel,82.60446
+NIC Alphanso Mango Ice Cream Combo,82.60446
+GetAWhey Healthy Ice Creams Alphonso Mango,82.60446
+Papacream X Rhea Kapoor The Chocolate Influencer Ice Cream,80.62507
+GetAWhey Healthy Ice Creams Chocolate Brownie Fudge,80.57377
+Baskin Robbins Three Cheers Chocolate Ice Cream,80.57377
+London Dairy Premium Simply Strawberry Ice Cream,80.57377
+Baskin Robbins Gold Medal Ribbon Ice Cream,80.57377
+London Dairy Premium Double Chocolate Ice Cream,80.57377
+Baskin Robbins Mississippi Mud Ice Cream,80.51348
+Amul Caramel Chocolate Gold Ice Cream,80.51348
+London Dairy Double Chocolate Ice Cream,80.51348
+Baskin Robbins Cotton Candy Ice Cream,80.51348
+GetAWhey Healthy Ice Creams Belgian Chocolate,80.51348
+GetAWhey Healthy Ice Creams Keto Blueberry Cheesecake,78.318405
+Baskin Robbins Honey Nut Crunch Ice Cream ,78.318405
+Baskin Robbins Fruit Overload Sundae Ice Cream,78.318405
+Papacream X Rhea Kapoor Hazelnut Cold Coffee Ice Cream,76.12072
+Papacream X Rhea Kapoor After School Sundae Ice Cream,76.12072
+Ice Apple,75.82379
+Ice Breakers Sugar Free Mints Cool Mint,71.80988
+Arun Icecream Butterscotch Icone,69.22869
+Arun Icecream Butterscotch Tub,69.22869
+Kwality Wall's Blushing Strawberry,65.07981
+Kwality Wall's Shameless Vanilla,65.07981
+Baskin Robbins Hazelnut Rocher,65.07981
+Kwality Walls Trixy Cheesecake Cup,65.07981
+Papacream Vegan Chocofudgy Cake,65.07981
+The Brooklyn Creamery Fudge Brownie,65.07981
+Papacream X Rhea Kapoor Brown Butter Biskut 100ML,65.07981
+Baskin Robbins Bavarian Chocolate Cone Combo,65.07981
+Papa Cream Sugarfree Vegan Espresso Cookie,65.07981
+Kwality Wall's Cadbury Crackle,63.800144
+Grameen Stick Desi Malai Kulfi,63.800144
+Grameen Dry Fruit Matka Kulfi ,63.800144
+Baskin Robbins Mississippi Mud Chocolate,63.800144
+Baskin Robbins Cookies n Cream Cone,63.800144
+Baskin Robbins Hazelnut Rocher Combo,63.800144
+Papacream Vegan French Vanilla,63.800144
+Kwality Wall's Dazzli Tutti Frutti,63.800144
+Polar Bear Brownie Fudge Sundae Tub 480ML,63.800144
+Kwality Walls Cornetto Double Chocolate Combo,63.800144
+Kwality Wall's Choco Brownie Fudge Tub,63.800144
+Skippi Healthy All Flavor Box,63.800144
+Dr Cubes Ice Cubes,63.710957
+Arun Icecream Vanilla Tub,63.567566
+Arun Icecream Vanilla Tub,63.567566
+Arun Icecream Chocobar Bar,63.567566
+Arun Icecream Chocolate Tub,63.567566
+Arun Icecream Double Chocolate Icone,61.629566
+Kwality Wall's Chocolate & Vanilla Sandwich,61.09009
+Papacream Vegan Chocofudgy Cake,61.09009
+The Brooklyn Creamery Sohoberry,61.09009
+Kwality Wall's So Alphonso Mango,61.09009
+Kwality Walls Cornetto Disc Oreo Combo,61.09009
+Kwality Wall's Darkly Divine Chocolate Sensation,61.09009
+Baskin Robbins Cookies n Cream Cone Combo,61.09009
+Baskin Robbins Dutch Chocolate,61.09009
+Kwality Wall's Aamras,61.09009
+Kwality Wall's Cornetto Double Chocolate,61.09009
+Grameen Stick Kesar Pista Kulfi,60.749763
+Kwality Wall's Trixy Cookie,60.749763
+Kwality Wall's Cornetto Chokissimo,60.749763
+The Brooklyn Creamery Vegan Chocolate Therapy,60.749763
+Papacream Og Strawberry Cheesecake,58.905407
+Kwality Wall's Oreo and Cream,58.905407
+Baskin Robbins Cotton Candy Cone : Combo,58.905407
+Kwality Wall's Cornetto Disc Oreo,58.905407
+Kwality Walls Cornetto Chokissimo Combo,58.905407
+Kwality Wall's Cornetto Butterscotch,58.905407
+Kwality Wall's Creamy Kulfi,58.905407
+Kwality Walls Royal Kulfi Cornetto,58.905407
+Kwality Wall's Crunchilicious Butterscotch,58.905407
+Classic Ice Burst,58.52494
+Nestea Lemon Flavor Iced Tea,57.520924
+Doublemint Ice Burst Candy,50.209843
+Indi Gear Wooden Ice Cream Spoon,46.48088
+Coke n Dr Ice Combo,43.289677
+Lipton Lemon Ice Tea (Bottle),42.60113
+Kinley Soda n ice cubes Mixers Combo,38.87503
+Lettuce Iceberg,16.674833
+Lettuce Iceberg,13.631723
+Nestea Lemon Flavour Iced Tea,13.445353
